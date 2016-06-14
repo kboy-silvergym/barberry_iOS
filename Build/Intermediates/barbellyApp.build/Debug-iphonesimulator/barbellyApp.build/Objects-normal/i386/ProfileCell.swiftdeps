@@ -1,0 +1,175 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProfileCell"
+provides-nominal:
+- "C11barbellyApp11ProfileCell"
+provides-member:
+- ["C11barbellyApp11ProfileCell", ""]
+provides-dynamic-lookup:
+- "newsText"
+- "userImage"
+depends-top-level:
+- "UILabel"
+- "UITableViewCell"
+- "UIImageView"
+- "ProfileCell"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "newsText"]
+- ["Ps9AnyObject", "userImage"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "newsText"]
+- ["Ps11CVarArgType", "userImage"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "newsText"]
+- ["Ps28CustomDebugStringConvertible", "userImage"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "newsText"]
+- ["Ps23CustomStringConvertible", "userImage"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "newsText"]
+- ["Ps9Equatable", "userImage"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "newsText"]
+- ["Ps8Hashable", "userImage"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "newsText"]
+- ["PSo8NSCoding", "userImage"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "newsText"]
+- ["CSo8NSObject", "userImage"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "newsText"]
+- ["PSo16NSObjectProtocol", "userImage"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C11barbellyApp11ProfileCell", "UIImageView"]
+- ["C11barbellyApp11ProfileCell", "UILabel"]
+- ["C11barbellyApp11ProfileCell", "deinit"]
+- ["C11barbellyApp11ProfileCell", "init"]
+- ["C11barbellyApp11ProfileCell", "newsText"]
+- ["C11barbellyApp11ProfileCell", "userImage"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "newsText"]
+- ["PSo29UIAccessibilityIdentification", "userImage"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "newsText"]
+- ["PSo12UIAppearance", "userImage"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "newsText"]
+- ["PSo21UIAppearanceContainer", "userImage"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "newsText"]
+- ["PSo17UICoordinateSpace", "userImage"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "newsText"]
+- ["PSo13UIDynamicItem", "userImage"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "newsText"]
+- ["PSo18UIFocusEnvironment", "userImage"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "newsText"]
+- ["PSo27UIGestureRecognizerDelegate", "userImage"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "newsText"]
+- ["CSo11UIResponder", "userImage"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "newsText"]
+- ["CSo15UITableViewCell", "userImage"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "newsText"]
+- ["PSo18UITraitEnvironment", "userImage"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "newsText"]
+- ["CSo6UIView", "userImage"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "newsText"]
+- ["Ps12_Reflectable", "userImage"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C11barbellyApp11ProfileCell"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/barbellyApp/barbellyApp-Bridging-Header.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMB.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBAnalytics.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBInstallation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBObject.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBPush.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBAnonymousUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBQuery.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBGeoPoint.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRelation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRole.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBACL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBError.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBUser.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBFile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBTwitterUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBScript.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBScriptService.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBSubclassing.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBReachability.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FontAwesomeKit.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKIcon.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKFontAwesome.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKFoundationIcons.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKZocial.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKIonIcons.h"
+interface-hash: "02b8e4e10330c7cb8f18756d9facfe1a"

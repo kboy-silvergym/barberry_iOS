@@ -1,0 +1,6 @@
+framework module Pods_Barberry {
+  umbrella header "Pods-Barberry-umbrella.h"
+
+  export *
+  module * { export * }
+}

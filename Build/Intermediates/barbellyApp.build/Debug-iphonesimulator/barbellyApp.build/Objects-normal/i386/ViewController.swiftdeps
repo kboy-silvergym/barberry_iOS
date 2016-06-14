@@ -1,0 +1,554 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C11barbellyApp14ViewController"
+- "CC11barbellyApp14ViewController20OnDialogEventClosure"
+provides-member:
+- ["C11barbellyApp14ViewController", ""]
+- ["CC11barbellyApp14ViewController20OnDialogEventClosure", ""]
+provides-dynamic-lookup:
+- "myActivityIndicator"
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+depends-top-level:
+- !private "UIAlertAction"
+- "UIActivityIndicatorView"
+- !private "UIAlertActionStyle"
+- "Void"
+- "String"
+- !private "CGRectMake"
+- !private "BooleanLiteralType"
+- "UIViewController"
+- !private "!"
+- !private "UIAlertController"
+- !private "UIActivityIndicatorViewStyle"
+- !private "StringLiteralType"
+- !private "!="
+- "ViewController"
+depends-member:
+- !private ["Ps9AnyObject", "CGRectMake"]
+- !private ["Ps9AnyObject", "UIActivityIndicatorView"]
+- !private ["Ps9AnyObject", "UIActivityIndicatorViewStyle"]
+- !private ["Ps9AnyObject", "UIAlertAction"]
+- !private ["Ps9AnyObject", "UIAlertActionStyle"]
+- !private ["Ps9AnyObject", "UIAlertController"]
+- !private ["Ps9AnyObject", "activityIndicatorViewStyle"]
+- !private ["Ps9AnyObject", "addAction"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "center"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "frame"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- ["Ps9AnyObject", "myActivityIndicator"]
+- !private ["Ps9AnyObject", "onClickNegative"]
+- !private ["Ps9AnyObject", "onClickPositive"]
+- !private ["Ps9AnyObject", "presentViewController"]
+- ["Ps9AnyObject", "showCustomDialog"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps11CVarArgType", "CGRectMake"]
+- !private ["Ps11CVarArgType", "UIActivityIndicatorView"]
+- !private ["Ps11CVarArgType", "UIActivityIndicatorViewStyle"]
+- !private ["Ps11CVarArgType", "UIAlertAction"]
+- !private ["Ps11CVarArgType", "UIAlertActionStyle"]
+- !private ["Ps11CVarArgType", "UIAlertController"]
+- !private ["Ps11CVarArgType", "activityIndicatorViewStyle"]
+- !private ["Ps11CVarArgType", "addAction"]
+- !private ["Ps11CVarArgType", "addSubview"]
+- !private ["Ps11CVarArgType", "center"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["Ps11CVarArgType", "frame"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isEmpty"]
+- ["Ps11CVarArgType", "myActivityIndicator"]
+- !private ["Ps11CVarArgType", "presentViewController"]
+- ["Ps11CVarArgType", "showCustomDialog"]
+- !private ["Ps11CVarArgType", "view"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRectMake"]
+- !private ["Ps28CustomDebugStringConvertible", "UIActivityIndicatorView"]
+- !private ["Ps28CustomDebugStringConvertible", "UIActivityIndicatorViewStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertAction"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertActionStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertController"]
+- !private ["Ps28CustomDebugStringConvertible", "activityIndicatorViewStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "addAction"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "center"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- ["Ps28CustomDebugStringConvertible", "myActivityIndicator"]
+- !private ["Ps28CustomDebugStringConvertible", "presentViewController"]
+- ["Ps28CustomDebugStringConvertible", "showCustomDialog"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGRectMake"]
+- !private ["Ps23CustomStringConvertible", "UIActivityIndicatorView"]
+- !private ["Ps23CustomStringConvertible", "UIActivityIndicatorViewStyle"]
+- !private ["Ps23CustomStringConvertible", "UIAlertAction"]
+- !private ["Ps23CustomStringConvertible", "UIAlertActionStyle"]
+- !private ["Ps23CustomStringConvertible", "UIAlertController"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "activityIndicatorViewStyle"]
+- !private ["Ps23CustomStringConvertible", "addAction"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "center"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- ["Ps23CustomStringConvertible", "myActivityIndicator"]
+- !private ["Ps23CustomStringConvertible", "presentViewController"]
+- ["Ps23CustomStringConvertible", "showCustomDialog"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Alert"]
+- !private ["Ps9Equatable", "CGRectMake"]
+- !private ["Ps9Equatable", "Default"]
+- !private ["Ps9Equatable", "Gray"]
+- !private ["Ps9Equatable", "UIActivityIndicatorView"]
+- !private ["Ps9Equatable", "UIActivityIndicatorViewStyle"]
+- !private ["Ps9Equatable", "UIAlertAction"]
+- !private ["Ps9Equatable", "UIAlertActionStyle"]
+- !private ["Ps9Equatable", "UIAlertController"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "activityIndicatorViewStyle"]
+- !private ["Ps9Equatable", "addAction"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "center"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "frame"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEmpty"]
+- ["Ps9Equatable", "myActivityIndicator"]
+- !private ["Ps9Equatable", "presentViewController"]
+- ["Ps9Equatable", "showCustomDialog"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["Ps8Hashable", "Alert"]
+- !private ["Ps8Hashable", "CGRectMake"]
+- !private ["Ps8Hashable", "Default"]
+- !private ["Ps8Hashable", "Gray"]
+- !private ["Ps8Hashable", "UIActivityIndicatorView"]
+- !private ["Ps8Hashable", "UIActivityIndicatorViewStyle"]
+- !private ["Ps8Hashable", "UIAlertAction"]
+- !private ["Ps8Hashable", "UIAlertActionStyle"]
+- !private ["Ps8Hashable", "UIAlertController"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "activityIndicatorViewStyle"]
+- !private ["Ps8Hashable", "addAction"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "center"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "frame"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEmpty"]
+- ["Ps8Hashable", "myActivityIndicator"]
+- !private ["Ps8Hashable", "presentViewController"]
+- ["Ps8Hashable", "showCustomDialog"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps14MirrorPathType", "isEmpty"]
+- !private ["PSo8NSCoding", "CGRectMake"]
+- !private ["PSo8NSCoding", "UIActivityIndicatorView"]
+- !private ["PSo8NSCoding", "UIActivityIndicatorViewStyle"]
+- !private ["PSo8NSCoding", "UIAlertAction"]
+- !private ["PSo8NSCoding", "UIAlertActionStyle"]
+- !private ["PSo8NSCoding", "UIAlertController"]
+- !private ["PSo8NSCoding", "activityIndicatorViewStyle"]
+- !private ["PSo8NSCoding", "addAction"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "center"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "frame"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- ["PSo8NSCoding", "myActivityIndicator"]
+- !private ["PSo8NSCoding", "presentViewController"]
+- ["PSo8NSCoding", "showCustomDialog"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo26NSExtensionRequestHandling", "CGRectMake"]
+- !private ["PSo26NSExtensionRequestHandling", "UIActivityIndicatorView"]
+- !private ["PSo26NSExtensionRequestHandling", "UIActivityIndicatorViewStyle"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertActionStyle"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertController"]
+- !private ["PSo26NSExtensionRequestHandling", "addAction"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "myActivityIndicator"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
+- ["PSo26NSExtensionRequestHandling", "showCustomDialog"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- !private ["CSo8NSObject", "CGRectMake"]
+- ["CSo8NSObject", "OnDialogEventClosure"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIActivityIndicatorView"]
+- !private ["CSo8NSObject", "UIActivityIndicatorViewStyle"]
+- !private ["CSo8NSObject", "UIAlertAction"]
+- !private ["CSo8NSObject", "UIAlertActionStyle"]
+- !private ["CSo8NSObject", "UIAlertController"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "activityIndicatorViewStyle"]
+- !private ["CSo8NSObject", "addAction"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "center"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEmpty"]
+- ["CSo8NSObject", "myActivityIndicator"]
+- !private ["CSo8NSObject", "presentViewController"]
+- ["CSo8NSObject", "showCustomDialog"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CGRectMake"]
+- !private ["PSo16NSObjectProtocol", "UIActivityIndicatorView"]
+- !private ["PSo16NSObjectProtocol", "UIActivityIndicatorViewStyle"]
+- !private ["PSo16NSObjectProtocol", "UIAlertAction"]
+- !private ["PSo16NSObjectProtocol", "UIAlertActionStyle"]
+- !private ["PSo16NSObjectProtocol", "UIAlertController"]
+- !private ["PSo16NSObjectProtocol", "activityIndicatorViewStyle"]
+- !private ["PSo16NSObjectProtocol", "addAction"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- ["PSo16NSObjectProtocol", "myActivityIndicator"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
+- ["PSo16NSObjectProtocol", "showCustomDialog"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["CSo8NSString", "isEmpty"]
+- ["CC11barbellyApp14ViewController20OnDialogEventClosure", "Void"]
+- ["CC11barbellyApp14ViewController20OnDialogEventClosure", "deinit"]
+- ["CC11barbellyApp14ViewController20OnDialogEventClosure", "init"]
+- ["CC11barbellyApp14ViewController20OnDialogEventClosure", "onClickNegative"]
+- ["CC11barbellyApp14ViewController20OnDialogEventClosure", "onClickPositive"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "isEmpty"]
+- !private ["Ps16RawRepresentable", "Alert"]
+- !private ["Ps16RawRepresentable", "Default"]
+- !private ["Ps16RawRepresentable", "Gray"]
+- !private ["Ps10Streamable", "isEmpty"]
+- !private ["SS", "isEmpty"]
+- !private ["Ps30StringInterpolationConvertible", "isEmpty"]
+- !private ["Ps24StringLiteralConvertible", "isEmpty"]
+- !private ["PSo29UIAccessibilityIdentification", "activityIndicatorViewStyle"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "center"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["CSo23UIActivityIndicatorView", "activityIndicatorViewStyle"]
+- !private ["CSo23UIActivityIndicatorView", "center"]
+- !private ["CSo23UIActivityIndicatorView", "frame"]
+- !private ["CSo23UIActivityIndicatorView", "init"]
+- !private ["OSC28UIActivityIndicatorViewStyle", "Gray"]
+- !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "Default"]
+- !private ["CSo17UIAlertController", "addAction"]
+- !private ["CSo17UIAlertController", "init"]
+- !private ["OSC22UIAlertControllerStyle", "Alert"]
+- !private ["PSo12UIAppearance", "activityIndicatorViewStyle"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "center"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo21UIAppearanceContainer", "CGRectMake"]
+- !private ["PSo21UIAppearanceContainer", "UIActivityIndicatorView"]
+- !private ["PSo21UIAppearanceContainer", "UIActivityIndicatorViewStyle"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertActionStyle"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertController"]
+- !private ["PSo21UIAppearanceContainer", "activityIndicatorViewStyle"]
+- !private ["PSo21UIAppearanceContainer", "addAction"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "center"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "myActivityIndicator"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
+- ["PSo21UIAppearanceContainer", "showCustomDialog"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "CGRectMake"]
+- !private ["PSo18UIContentContainer", "UIActivityIndicatorView"]
+- !private ["PSo18UIContentContainer", "UIActivityIndicatorViewStyle"]
+- !private ["PSo18UIContentContainer", "UIAlertAction"]
+- !private ["PSo18UIContentContainer", "UIAlertActionStyle"]
+- !private ["PSo18UIContentContainer", "UIAlertController"]
+- !private ["PSo18UIContentContainer", "addAction"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "myActivityIndicator"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
+- ["PSo18UIContentContainer", "showCustomDialog"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "activityIndicatorViewStyle"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "center"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo13UIDynamicItem", "activityIndicatorViewStyle"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "center"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo18UIFocusEnvironment", "CGRectMake"]
+- !private ["PSo18UIFocusEnvironment", "UIActivityIndicatorView"]
+- !private ["PSo18UIFocusEnvironment", "UIActivityIndicatorViewStyle"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertAction"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertActionStyle"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertController"]
+- !private ["PSo18UIFocusEnvironment", "activityIndicatorViewStyle"]
+- !private ["PSo18UIFocusEnvironment", "addAction"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "center"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "myActivityIndicator"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
+- ["PSo18UIFocusEnvironment", "showCustomDialog"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "CGRectMake"]
+- ["CSo11UIResponder", "OnDialogEventClosure"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIActivityIndicatorView"]
+- !private ["CSo11UIResponder", "UIActivityIndicatorViewStyle"]
+- !private ["CSo11UIResponder", "UIAlertAction"]
+- !private ["CSo11UIResponder", "UIAlertActionStyle"]
+- !private ["CSo11UIResponder", "UIAlertController"]
+- ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "activityIndicatorViewStyle"]
+- !private ["CSo11UIResponder", "addAction"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "center"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "myActivityIndicator"]
+- !private ["CSo11UIResponder", "presentViewController"]
+- ["CSo11UIResponder", "showCustomDialog"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "CGRectMake"]
+- !private ["PSo16UIStateRestoring", "UIActivityIndicatorView"]
+- !private ["PSo16UIStateRestoring", "UIActivityIndicatorViewStyle"]
+- !private ["PSo16UIStateRestoring", "UIAlertAction"]
+- !private ["PSo16UIStateRestoring", "UIAlertActionStyle"]
+- !private ["PSo16UIStateRestoring", "UIAlertController"]
+- !private ["PSo16UIStateRestoring", "addAction"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "myActivityIndicator"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
+- ["PSo16UIStateRestoring", "showCustomDialog"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "CGRectMake"]
+- !private ["PSo18UITraitEnvironment", "UIActivityIndicatorView"]
+- !private ["PSo18UITraitEnvironment", "UIActivityIndicatorViewStyle"]
+- !private ["PSo18UITraitEnvironment", "UIAlertAction"]
+- !private ["PSo18UITraitEnvironment", "UIAlertActionStyle"]
+- !private ["PSo18UITraitEnvironment", "UIAlertController"]
+- !private ["PSo18UITraitEnvironment", "activityIndicatorViewStyle"]
+- !private ["PSo18UITraitEnvironment", "addAction"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "center"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "myActivityIndicator"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
+- ["PSo18UITraitEnvironment", "showCustomDialog"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "activityIndicatorViewStyle"]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "center"]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo16UIViewController", "CGRectMake"]
+- ["CSo16UIViewController", "OnDialogEventClosure"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIActivityIndicatorView"]
+- !private ["CSo16UIViewController", "UIActivityIndicatorViewStyle"]
+- !private ["CSo16UIViewController", "UIAlertAction"]
+- !private ["CSo16UIViewController", "UIAlertActionStyle"]
+- !private ["CSo16UIViewController", "UIAlertController"]
+- ["CSo16UIViewController", "Void"]
+- !private ["CSo16UIViewController", "addAction"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "myActivityIndicator"]
+- !private ["CSo16UIViewController", "presentViewController"]
+- ["CSo16UIViewController", "showCustomDialog"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["C11barbellyApp14ViewController", "CGRectMake"]
+- ["C11barbellyApp14ViewController", "OnDialogEventClosure"]
+- ["C11barbellyApp14ViewController", "String"]
+- ["C11barbellyApp14ViewController", "UIActivityIndicatorView"]
+- !private ["C11barbellyApp14ViewController", "UIActivityIndicatorViewStyle"]
+- !private ["C11barbellyApp14ViewController", "UIAlertAction"]
+- !private ["C11barbellyApp14ViewController", "UIAlertActionStyle"]
+- !private ["C11barbellyApp14ViewController", "UIAlertController"]
+- ["C11barbellyApp14ViewController", "Void"]
+- ["C11barbellyApp14ViewController", "deinit"]
+- ["C11barbellyApp14ViewController", "didReceiveMemoryWarning"]
+- ["C11barbellyApp14ViewController", "init"]
+- ["C11barbellyApp14ViewController", "myActivityIndicator"]
+- !private ["C11barbellyApp14ViewController", "presentViewController"]
+- ["C11barbellyApp14ViewController", "showCustomDialog"]
+- !private ["C11barbellyApp14ViewController", "view"]
+- ["C11barbellyApp14ViewController", "viewDidLoad"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "isEmpty"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "isEmpty"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "activityIndicatorViewStyle"]
+- !private ["Ps12_Reflectable", "addSubview"]
+- !private ["Ps12_Reflectable", "center"]
+- !private ["Ps12_Reflectable", "frame"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "isEmpty"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "Ps8Hashable"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "CC11barbellyApp14ViewController20OnDialogEventClosure"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps16RawRepresentable"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo23UIActivityIndicatorView"
+- !private "OSC28UIActivityIndicatorViewStyle"
+- !private "CSo13UIAlertAction"
+- !private "OSC18UIAlertActionStyle"
+- !private "CSo17UIAlertController"
+- !private "OSC22UIAlertControllerStyle"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- "C11barbellyApp14ViewController"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/barbellyApp/barbellyApp-Bridging-Header.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMB.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBAnalytics.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBInstallation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBObject.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBPush.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBAnonymousUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBQuery.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBGeoPoint.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRelation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRole.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBACL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBError.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBUser.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBFile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBTwitterUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBScript.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBScriptService.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBSubclassing.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBReachability.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FontAwesomeKit.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKIcon.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKFontAwesome.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKFoundationIcons.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKZocial.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKIonIcons.h"
+interface-hash: "f9962ff4fe65096c74b3f697b6fec219"

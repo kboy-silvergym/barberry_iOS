@@ -1,0 +1,170 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WorkoutModel"
+provides-nominal:
+- "C11barbellyApp12WorkoutModel"
+provides-member:
+- ["C11barbellyApp12WorkoutModel", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "WorkoutModel"
+- "String"
+- "FloatLiteralType"
+- !private "~="
+- "IntegerLiteralType"
+- "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "genre"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo7NSValue", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- ["C11barbellyApp12WorkoutModel", "String"]
+- ["C11barbellyApp12WorkoutModel", "deinit"]
+- ["C11barbellyApp12WorkoutModel", "genre"]
+- ["C11barbellyApp12WorkoutModel", "getGenreName"]
+- ["C11barbellyApp12WorkoutModel", "id"]
+- ["C11barbellyApp12WorkoutModel", "init"]
+- ["C11barbellyApp12WorkoutModel", "name"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "CSo8NSNumber"
+- !private "CSo8NSObject"
+- !private "CSo7NSValue"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- "C11barbellyApp12WorkoutModel"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/barbellyApp/barbellyApp-Bridging-Header.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMB.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBAnalytics.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBInstallation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBObject.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBPush.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBAnonymousUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBQuery.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBGeoPoint.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRelation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRole.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBACL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBError.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBUser.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBFile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBTwitterUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBScript.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBScriptService.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBSubclassing.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBReachability.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FontAwesomeKit.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKIcon.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKFontAwesome.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKFoundationIcons.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKZocial.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKIonIcons.h"
+interface-hash: "cd7e5e728956ed1457634150a767280d"

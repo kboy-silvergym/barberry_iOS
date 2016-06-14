@@ -1,0 +1,482 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginViewController"
+provides-nominal:
+- "C11barbellyApp19LoginViewController"
+provides-member:
+- ["C11barbellyApp19LoginViewController", ""]
+provides-dynamic-lookup:
+- "loginButtonDidLogOut"
+- "viewDidAppear"
+- "loginButton"
+- "viewDidLoad"
+depends-top-level:
+- !private "print"
+- !private "FBSDKAccessToken"
+- "NSError"
+- "LoginViewController"
+- "Bool"
+- !private "!="
+- "FBSDKLoginButton"
+- "FBSDKLoginManagerLoginResult"
+- "ViewController"
+- !private "StringLiteralType"
+- "FBSDKLoginButtonDelegate"
+depends-member:
+- !private ["Ps9AnyObject", "FBSDKAccessToken"]
+- !private ["Ps9AnyObject", "currentAccessToken"]
+- !private ["Ps9AnyObject", "grantedPermissions"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isCancelled"]
+- ["Ps9AnyObject", "loginButton"]
+- ["Ps9AnyObject", "loginButtonDidLogOut"]
+- ["Ps9AnyObject", "loginButtonWillLogin"]
+- !private ["Ps9AnyObject", "performSegueWithIdentifier"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "viewDidAppear"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "contains"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "FBSDKAccessToken"]
+- !private ["Ps11CVarArgType", "currentAccessToken"]
+- !private ["Ps11CVarArgType", "grantedPermissions"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isCancelled"]
+- ["Ps11CVarArgType", "loginButton"]
+- ["Ps11CVarArgType", "loginButtonDidLogOut"]
+- ["Ps11CVarArgType", "loginButtonWillLogin"]
+- !private ["Ps11CVarArgType", "performSegueWithIdentifier"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "viewDidAppear"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "FBSDKAccessToken"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "currentAccessToken"]
+- !private ["Ps28CustomDebugStringConvertible", "grantedPermissions"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isCancelled"]
+- ["Ps28CustomDebugStringConvertible", "loginButton"]
+- ["Ps28CustomDebugStringConvertible", "loginButtonDidLogOut"]
+- ["Ps28CustomDebugStringConvertible", "loginButtonWillLogin"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegueWithIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "viewDidAppear"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "FBSDKAccessToken"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "currentAccessToken"]
+- !private ["Ps23CustomStringConvertible", "grantedPermissions"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isCancelled"]
+- ["Ps23CustomStringConvertible", "loginButton"]
+- ["Ps23CustomStringConvertible", "loginButtonDidLogOut"]
+- ["Ps23CustomStringConvertible", "loginButtonWillLogin"]
+- !private ["Ps23CustomStringConvertible", "performSegueWithIdentifier"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "viewDidAppear"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "FBSDKAccessToken"]
+- !private ["Ps9Equatable", "Generator"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "currentAccessToken"]
+- !private ["Ps9Equatable", "grantedPermissions"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isCancelled"]
+- ["Ps9Equatable", "loginButton"]
+- ["Ps9Equatable", "loginButtonDidLogOut"]
+- ["Ps9Equatable", "loginButtonWillLogin"]
+- !private ["Ps9Equatable", "performSegueWithIdentifier"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "viewDidAppear"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["CSo16FBSDKAccessToken", "currentAccessToken"]
+- !private ["CSo16FBSDKAccessToken", "deinit"]
+- !private ["PSo12FBSDKCopying", "currentAccessToken"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "FBSDKAccessToken"]
+- ["PSo24FBSDKLoginButtonDelegate", "loginButton"]
+- ["PSo24FBSDKLoginButtonDelegate", "loginButtonDidLogOut"]
+- ["PSo24FBSDKLoginButtonDelegate", "loginButtonWillLogin"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "performSegueWithIdentifier"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "print"]
+- ["PSo24FBSDKLoginButtonDelegate", ""]
+- !private ["CSo28FBSDKLoginManagerLoginResult", "grantedPermissions"]
+- !private ["CSo28FBSDKLoginManagerLoginResult", "isCancelled"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "FBSDKAccessToken"]
+- !private ["Ps8Hashable", "Generator"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "contains"]
+- !private ["Ps8Hashable", "currentAccessToken"]
+- !private ["Ps8Hashable", "grantedPermissions"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isCancelled"]
+- ["Ps8Hashable", "loginButton"]
+- ["Ps8Hashable", "loginButtonDidLogOut"]
+- ["Ps8Hashable", "loginButtonWillLogin"]
+- !private ["Ps8Hashable", "performSegueWithIdentifier"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "viewDidAppear"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "contains"]
+- ["C11barbellyApp19LoginViewController", "Bool"]
+- !private ["C11barbellyApp19LoginViewController", "FBSDKAccessToken"]
+- ["C11barbellyApp19LoginViewController", "FBSDKLoginButton"]
+- ["C11barbellyApp19LoginViewController", "FBSDKLoginManagerLoginResult"]
+- ["C11barbellyApp19LoginViewController", "NSError"]
+- ["C11barbellyApp19LoginViewController", "deinit"]
+- ["C11barbellyApp19LoginViewController", "init"]
+- ["C11barbellyApp19LoginViewController", "loginButton"]
+- ["C11barbellyApp19LoginViewController", "loginButtonDidLogOut"]
+- ["C11barbellyApp19LoginViewController", "loginButtonWillLogin"]
+- !private ["C11barbellyApp19LoginViewController", "performSegueWithIdentifier"]
+- !private ["C11barbellyApp19LoginViewController", "print"]
+- ["C11barbellyApp19LoginViewController", "viewDidAppear"]
+- ["C11barbellyApp19LoginViewController", "viewDidLoad"]
+- !private ["PSo8NSCoding", "FBSDKAccessToken"]
+- !private ["PSo8NSCoding", "currentAccessToken"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "loginButton"]
+- ["PSo8NSCoding", "loginButtonDidLogOut"]
+- ["PSo8NSCoding", "loginButtonWillLogin"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "viewDidAppear"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "currentAccessToken"]
+- !private ["CSo7NSError", "deinit"]
+- !private ["PSo26NSExtensionRequestHandling", "FBSDKAccessToken"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loginButton"]
+- ["PSo26NSExtensionRequestHandling", "loginButtonDidLogOut"]
+- ["PSo26NSExtensionRequestHandling", "loginButtonWillLogin"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FBSDKAccessToken"]
+- ["CSo8NSObject", "FBSDKLoginButton"]
+- ["CSo8NSObject", "FBSDKLoginManagerLoginResult"]
+- ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "currentAccessToken"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "grantedPermissions"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isCancelled"]
+- ["CSo8NSObject", "loginButton"]
+- ["CSo8NSObject", "loginButtonDidLogOut"]
+- ["CSo8NSObject", "loginButtonWillLogin"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "FBSDKAccessToken"]
+- !private ["PSo16NSObjectProtocol", "currentAccessToken"]
+- !private ["PSo16NSObjectProtocol", "grantedPermissions"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isCancelled"]
+- ["PSo16NSObjectProtocol", "loginButton"]
+- ["PSo16NSObjectProtocol", "loginButtonDidLogOut"]
+- ["PSo16NSObjectProtocol", "loginButtonWillLogin"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "viewDidAppear"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "currentAccessToken"]
+- !private ["Sq", "deinit"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "contains"]
+- !private ["Vs3Set", "Generator"]
+- !private ["Vs3Set", "contains"]
+- !private ["Vs12SetGenerator", "Element"]
+- !private ["PSo21UIAppearanceContainer", "FBSDKAccessToken"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loginButton"]
+- ["PSo21UIAppearanceContainer", "loginButtonDidLogOut"]
+- ["PSo21UIAppearanceContainer", "loginButtonWillLogin"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "viewDidAppear"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "FBSDKAccessToken"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loginButton"]
+- ["PSo18UIContentContainer", "loginButtonDidLogOut"]
+- ["PSo18UIContentContainer", "loginButtonWillLogin"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "viewDidAppear"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "FBSDKAccessToken"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loginButton"]
+- ["PSo18UIFocusEnvironment", "loginButtonDidLogOut"]
+- ["PSo18UIFocusEnvironment", "loginButtonWillLogin"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "viewDidAppear"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FBSDKAccessToken"]
+- ["CSo11UIResponder", "FBSDKLoginButton"]
+- ["CSo11UIResponder", "FBSDKLoginManagerLoginResult"]
+- ["CSo11UIResponder", "NSError"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loginButton"]
+- ["CSo11UIResponder", "loginButtonDidLogOut"]
+- ["CSo11UIResponder", "loginButtonWillLogin"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "FBSDKAccessToken"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loginButton"]
+- ["PSo16UIStateRestoring", "loginButtonDidLogOut"]
+- ["PSo16UIStateRestoring", "loginButtonWillLogin"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "viewDidAppear"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "FBSDKAccessToken"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loginButton"]
+- ["PSo18UITraitEnvironment", "loginButtonDidLogOut"]
+- ["PSo18UITraitEnvironment", "loginButtonWillLogin"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "viewDidAppear"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "FBSDKAccessToken"]
+- ["CSo16UIViewController", "FBSDKLoginButton"]
+- ["CSo16UIViewController", "FBSDKLoginManagerLoginResult"]
+- ["CSo16UIViewController", "NSError"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loginButton"]
+- ["CSo16UIViewController", "loginButtonDidLogOut"]
+- ["CSo16UIViewController", "loginButtonWillLogin"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["C11barbellyApp14ViewController", "Bool"]
+- !private ["C11barbellyApp14ViewController", "FBSDKAccessToken"]
+- ["C11barbellyApp14ViewController", "FBSDKLoginButton"]
+- ["C11barbellyApp14ViewController", "FBSDKLoginManagerLoginResult"]
+- ["C11barbellyApp14ViewController", "NSError"]
+- ["C11barbellyApp14ViewController", "init"]
+- ["C11barbellyApp14ViewController", "loginButton"]
+- ["C11barbellyApp14ViewController", "loginButtonDidLogOut"]
+- ["C11barbellyApp14ViewController", "loginButtonWillLogin"]
+- !private ["C11barbellyApp14ViewController", "performSegueWithIdentifier"]
+- !private ["C11barbellyApp14ViewController", "print"]
+- ["C11barbellyApp14ViewController", "viewDidAppear"]
+- ["C11barbellyApp14ViewController", "viewDidLoad"]
+- ["C11barbellyApp14ViewController", ""]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "contains"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "contains"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "CSo16FBSDKAccessToken"
+- !private "PSo12FBSDKCopying"
+- "PSo24FBSDKLoginButtonDelegate"
+- !private "CSo28FBSDKLoginManagerLoginResult"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Ps9Indexable"
+- "C11barbellyApp19LoginViewController"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Sq"
+- !private "Ps12SequenceType"
+- !private "Vs3Set"
+- !private "Vs12SetGenerator"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- "C11barbellyApp14ViewController"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/barbellyApp/barbellyApp-Bridging-Header.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/SubClassHandler.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBUser+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRelation+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBQuery+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBObject+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBFacebookUtils+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBSetOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRemoveOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRelationOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBIncrementOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBDeleteOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBAddUniqueOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBAddOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NSDataBase64Encode.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBURLConnection.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBTwitterLoginView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAServiceTicket.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAHMAC_SHA1SignatureProvider.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOASignatureProviding.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAToken.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAMutableURLRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOADataFetcher.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAConsumer.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/sha1.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/hmac.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/Base64Transcoder.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NSURLBase.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NSStringURLEncoding.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOARequestParameter.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NSMutableURLRequestParameters.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRichPushView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBCloseImageView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBObject+Subclass.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBGoogleUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBGoogleUtils+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBReachability.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBSubclassing.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBFacebookUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBScriptService.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBScript.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBTwitterUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBFile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBUser.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBError.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBACL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRole.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRelation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBGeoPoint.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBQuery.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBAnonymousUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBPush.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBObject.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBInstallation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBAnalytics.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMB.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMB-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FontAwesomeKit.framework/Headers/FAKFontAwesome.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FontAwesomeKit.framework/Headers/FAKIcon.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FontAwesomeKit.framework/Headers/FontAwesomeKit-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FontAwesomeKit.framework/Modules/module.modulemap"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTask.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFURL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Modules/module.modulemap"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "de09d6f4ecf8204ea16411552a029e25"

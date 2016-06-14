@@ -1,0 +1,228 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WorkoutLogCell2"
+provides-nominal:
+- "C11barbellyApp15WorkoutLogCell2"
+provides-member:
+- ["C11barbellyApp15WorkoutLogCell2", ""]
+provides-dynamic-lookup:
+- "reps"
+- "kg"
+- "name"
+depends-top-level:
+- "WorkoutLogCell2"
+- "UITableViewCell"
+- "UILabel"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "kg"]
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "reps"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "kg"]
+- ["Ps11CVarArgType", "name"]
+- ["Ps11CVarArgType", "reps"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "kg"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "reps"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "kg"]
+- ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "reps"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "kg"]
+- ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "reps"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "kg"]
+- ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "reps"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "kg"]
+- ["PSo8NSCoding", "name"]
+- ["PSo8NSCoding", "reps"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "kg"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "reps"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "kg"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "reps"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "kg"]
+- ["PSo29UIAccessibilityIdentification", "name"]
+- ["PSo29UIAccessibilityIdentification", "reps"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "kg"]
+- ["PSo12UIAppearance", "name"]
+- ["PSo12UIAppearance", "reps"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "kg"]
+- ["PSo21UIAppearanceContainer", "name"]
+- ["PSo21UIAppearanceContainer", "reps"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "kg"]
+- ["PSo17UICoordinateSpace", "name"]
+- ["PSo17UICoordinateSpace", "reps"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "kg"]
+- ["PSo13UIDynamicItem", "name"]
+- ["PSo13UIDynamicItem", "reps"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "kg"]
+- ["PSo18UIFocusEnvironment", "name"]
+- ["PSo18UIFocusEnvironment", "reps"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "kg"]
+- ["PSo27UIGestureRecognizerDelegate", "name"]
+- ["PSo27UIGestureRecognizerDelegate", "reps"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "kg"]
+- ["CSo11UIResponder", "name"]
+- ["CSo11UIResponder", "reps"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "kg"]
+- ["CSo15UITableViewCell", "name"]
+- ["CSo15UITableViewCell", "reps"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "kg"]
+- ["PSo18UITraitEnvironment", "name"]
+- ["PSo18UITraitEnvironment", "reps"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "kg"]
+- ["CSo6UIView", "name"]
+- ["CSo6UIView", "reps"]
+- ["C11barbellyApp15WorkoutLogCell2", "UILabel"]
+- ["C11barbellyApp15WorkoutLogCell2", "deinit"]
+- ["C11barbellyApp15WorkoutLogCell2", "init"]
+- ["C11barbellyApp15WorkoutLogCell2", "kg"]
+- ["C11barbellyApp15WorkoutLogCell2", "name"]
+- ["C11barbellyApp15WorkoutLogCell2", "reps"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "kg"]
+- ["Ps12_Reflectable", "name"]
+- ["Ps12_Reflectable", "reps"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "C11barbellyApp15WorkoutLogCell2"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/barbellyApp/barbellyApp-Bridging-Header.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/SubClassHandler.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBUser+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRelation+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBQuery+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBObject+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBFacebookUtils+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBSetOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRemoveOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRelationOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBIncrementOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBDeleteOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBAddUniqueOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBAddOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NSDataBase64Encode.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBURLConnection.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBTwitterLoginView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAServiceTicket.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAHMAC_SHA1SignatureProvider.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOASignatureProviding.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAToken.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAMutableURLRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOADataFetcher.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAConsumer.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/sha1.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/hmac.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/Base64Transcoder.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NSURLBase.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NSStringURLEncoding.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOARequestParameter.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NSMutableURLRequestParameters.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRichPushView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBCloseImageView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBObject+Subclass.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBGoogleUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBGoogleUtils+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBFacebookUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBReachability.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBSubclassing.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBScriptService.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBScript.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBTwitterUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBFile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBUser.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBError.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBACL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRole.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRelation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBGeoPoint.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBQuery.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBAnonymousUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBPush.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBObject.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBInstallation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBAnalytics.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMB.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMB-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKFontAwesome.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKIcon.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/FontAwesomeKit/FontAwesomeKit.framework/Headers/FontAwesomeKit-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/FontAwesomeKit/FontAwesomeKit.framework/Modules/module.modulemap"
+interface-hash: "55126698e83d75e11b00437ddb8663e4"

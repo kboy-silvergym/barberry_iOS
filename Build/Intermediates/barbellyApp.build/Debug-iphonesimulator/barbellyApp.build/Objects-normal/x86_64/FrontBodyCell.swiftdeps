@@ -1,0 +1,702 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FrontBodyCell"
+provides-nominal:
+- "C11barbellyApp13FrontBodyCell"
+provides-member:
+- ["C11barbellyApp13FrontBodyCell", ""]
+provides-dynamic-lookup:
+- "rightShoulederClick"
+- "muscleNameLabel"
+- "leftArmMuscle"
+- "rightArmClick"
+- "chestMuscle"
+- "chestClick"
+- "absMuscle"
+- "leftArmClick"
+- "resetMuscle"
+- "leftShoulederClick"
+- "rightShoulderMuscle"
+- "bodyImage"
+- "leftShoulederMuscle"
+- "rightArmMuscle"
+- "absClick"
+depends-top-level:
+- "UILabel"
+- "UIImageView"
+- "UICollectionViewCell"
+- "AnyObject"
+- !private "BooleanLiteralType"
+- "UIButton"
+- "WorkoutApiModel"
+- !private "UIFont"
+- "FrontBodyCell"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "PartsEnum"]
+- !private ["Ps9AnyObject", "UIFont"]
+- !private ["Ps9AnyObject", "WorkoutApiModel"]
+- ["Ps9AnyObject", "absClick"]
+- ["Ps9AnyObject", "absMuscle"]
+- ["Ps9AnyObject", "apiModel"]
+- ["Ps9AnyObject", "bodyImage"]
+- !private ["Ps9AnyObject", "boldSystemFontOfSize"]
+- ["Ps9AnyObject", "chestClick"]
+- ["Ps9AnyObject", "chestMuscle"]
+- !private ["Ps9AnyObject", "doDataRequest"]
+- !private ["Ps9AnyObject", "font"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "leftArmClick"]
+- ["Ps9AnyObject", "leftArmMuscle"]
+- ["Ps9AnyObject", "leftShoulederClick"]
+- ["Ps9AnyObject", "leftShoulederMuscle"]
+- ["Ps9AnyObject", "muscleNameLabel"]
+- ["Ps9AnyObject", "resetMuscle"]
+- ["Ps9AnyObject", "rightArmClick"]
+- ["Ps9AnyObject", "rightArmMuscle"]
+- ["Ps9AnyObject", "rightShoulderMuscle"]
+- ["Ps9AnyObject", "rightShoulederClick"]
+- !private ["Ps9AnyObject", "selected"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", ""]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps11CVarArgType", "UIFont"]
+- !private ["Ps11CVarArgType", "WorkoutApiModel"]
+- ["Ps11CVarArgType", "absClick"]
+- ["Ps11CVarArgType", "absMuscle"]
+- ["Ps11CVarArgType", "apiModel"]
+- ["Ps11CVarArgType", "bodyImage"]
+- !private ["Ps11CVarArgType", "boldSystemFontOfSize"]
+- ["Ps11CVarArgType", "chestClick"]
+- ["Ps11CVarArgType", "chestMuscle"]
+- !private ["Ps11CVarArgType", "font"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "leftArmClick"]
+- ["Ps11CVarArgType", "leftArmMuscle"]
+- ["Ps11CVarArgType", "leftShoulederClick"]
+- ["Ps11CVarArgType", "leftShoulederMuscle"]
+- ["Ps11CVarArgType", "muscleNameLabel"]
+- ["Ps11CVarArgType", "resetMuscle"]
+- ["Ps11CVarArgType", "rightArmClick"]
+- ["Ps11CVarArgType", "rightArmMuscle"]
+- ["Ps11CVarArgType", "rightShoulderMuscle"]
+- ["Ps11CVarArgType", "rightShoulederClick"]
+- !private ["Ps11CVarArgType", "selected"]
+- !private ["Ps11CVarArgType", "text"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "UIFont"]
+- !private ["Ps28CustomDebugStringConvertible", "WorkoutApiModel"]
+- ["Ps28CustomDebugStringConvertible", "absClick"]
+- ["Ps28CustomDebugStringConvertible", "absMuscle"]
+- ["Ps28CustomDebugStringConvertible", "apiModel"]
+- ["Ps28CustomDebugStringConvertible", "bodyImage"]
+- !private ["Ps28CustomDebugStringConvertible", "boldSystemFontOfSize"]
+- ["Ps28CustomDebugStringConvertible", "chestClick"]
+- ["Ps28CustomDebugStringConvertible", "chestMuscle"]
+- !private ["Ps28CustomDebugStringConvertible", "font"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "leftArmClick"]
+- ["Ps28CustomDebugStringConvertible", "leftArmMuscle"]
+- ["Ps28CustomDebugStringConvertible", "leftShoulederClick"]
+- ["Ps28CustomDebugStringConvertible", "leftShoulederMuscle"]
+- ["Ps28CustomDebugStringConvertible", "muscleNameLabel"]
+- ["Ps28CustomDebugStringConvertible", "resetMuscle"]
+- ["Ps28CustomDebugStringConvertible", "rightArmClick"]
+- ["Ps28CustomDebugStringConvertible", "rightArmMuscle"]
+- ["Ps28CustomDebugStringConvertible", "rightShoulderMuscle"]
+- ["Ps28CustomDebugStringConvertible", "rightShoulederClick"]
+- !private ["Ps28CustomDebugStringConvertible", "selected"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "UIFont"]
+- !private ["Ps23CustomStringConvertible", "WorkoutApiModel"]
+- ["Ps23CustomStringConvertible", "absClick"]
+- ["Ps23CustomStringConvertible", "absMuscle"]
+- ["Ps23CustomStringConvertible", "apiModel"]
+- ["Ps23CustomStringConvertible", "bodyImage"]
+- !private ["Ps23CustomStringConvertible", "boldSystemFontOfSize"]
+- ["Ps23CustomStringConvertible", "chestClick"]
+- ["Ps23CustomStringConvertible", "chestMuscle"]
+- !private ["Ps23CustomStringConvertible", "font"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "leftArmClick"]
+- ["Ps23CustomStringConvertible", "leftArmMuscle"]
+- ["Ps23CustomStringConvertible", "leftShoulederClick"]
+- ["Ps23CustomStringConvertible", "leftShoulederMuscle"]
+- ["Ps23CustomStringConvertible", "muscleNameLabel"]
+- ["Ps23CustomStringConvertible", "resetMuscle"]
+- ["Ps23CustomStringConvertible", "rightArmClick"]
+- ["Ps23CustomStringConvertible", "rightArmMuscle"]
+- ["Ps23CustomStringConvertible", "rightShoulderMuscle"]
+- ["Ps23CustomStringConvertible", "rightShoulederClick"]
+- !private ["Ps23CustomStringConvertible", "selected"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "ABS"]
+- !private ["Ps9Equatable", "BICEPS"]
+- !private ["Ps9Equatable", "CHEST"]
+- !private ["Ps9Equatable", "SHOULDER"]
+- !private ["Ps9Equatable", "TRICEPS"]
+- !private ["Ps9Equatable", "UIFont"]
+- !private ["Ps9Equatable", "WorkoutApiModel"]
+- ["Ps9Equatable", "absClick"]
+- ["Ps9Equatable", "absMuscle"]
+- ["Ps9Equatable", "apiModel"]
+- ["Ps9Equatable", "bodyImage"]
+- !private ["Ps9Equatable", "boldSystemFontOfSize"]
+- ["Ps9Equatable", "chestClick"]
+- ["Ps9Equatable", "chestMuscle"]
+- !private ["Ps9Equatable", "font"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "leftArmClick"]
+- ["Ps9Equatable", "leftArmMuscle"]
+- ["Ps9Equatable", "leftShoulederClick"]
+- ["Ps9Equatable", "leftShoulederMuscle"]
+- ["Ps9Equatable", "muscleNameLabel"]
+- ["Ps9Equatable", "resetMuscle"]
+- ["Ps9Equatable", "rightArmClick"]
+- ["Ps9Equatable", "rightArmMuscle"]
+- ["Ps9Equatable", "rightShoulderMuscle"]
+- ["Ps9Equatable", "rightShoulederClick"]
+- !private ["Ps9Equatable", "selected"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", ""]
+- ["C11barbellyApp13FrontBodyCell", "AnyObject"]
+- ["C11barbellyApp13FrontBodyCell", "UIButton"]
+- !private ["C11barbellyApp13FrontBodyCell", "UIFont"]
+- ["C11barbellyApp13FrontBodyCell", "UIImageView"]
+- ["C11barbellyApp13FrontBodyCell", "UILabel"]
+- ["C11barbellyApp13FrontBodyCell", "WorkoutApiModel"]
+- ["C11barbellyApp13FrontBodyCell", "absClick"]
+- ["C11barbellyApp13FrontBodyCell", "absMuscle"]
+- ["C11barbellyApp13FrontBodyCell", "apiModel"]
+- ["C11barbellyApp13FrontBodyCell", "bodyImage"]
+- ["C11barbellyApp13FrontBodyCell", "chestClick"]
+- ["C11barbellyApp13FrontBodyCell", "chestMuscle"]
+- ["C11barbellyApp13FrontBodyCell", "deinit"]
+- ["C11barbellyApp13FrontBodyCell", "init"]
+- ["C11barbellyApp13FrontBodyCell", "leftArmClick"]
+- ["C11barbellyApp13FrontBodyCell", "leftArmMuscle"]
+- ["C11barbellyApp13FrontBodyCell", "leftShoulederClick"]
+- ["C11barbellyApp13FrontBodyCell", "leftShoulederMuscle"]
+- ["C11barbellyApp13FrontBodyCell", "muscleNameLabel"]
+- ["C11barbellyApp13FrontBodyCell", "resetMuscle"]
+- ["C11barbellyApp13FrontBodyCell", "rightArmClick"]
+- ["C11barbellyApp13FrontBodyCell", "rightArmMuscle"]
+- ["C11barbellyApp13FrontBodyCell", "rightShoulderMuscle"]
+- ["C11barbellyApp13FrontBodyCell", "rightShoulederClick"]
+- !private ["Ps8Hashable", "ABS"]
+- !private ["Ps8Hashable", "BICEPS"]
+- !private ["Ps8Hashable", "CHEST"]
+- !private ["Ps8Hashable", "SHOULDER"]
+- !private ["Ps8Hashable", "TRICEPS"]
+- !private ["Ps8Hashable", "UIFont"]
+- !private ["Ps8Hashable", "WorkoutApiModel"]
+- ["Ps8Hashable", "absClick"]
+- ["Ps8Hashable", "absMuscle"]
+- ["Ps8Hashable", "apiModel"]
+- ["Ps8Hashable", "bodyImage"]
+- !private ["Ps8Hashable", "boldSystemFontOfSize"]
+- ["Ps8Hashable", "chestClick"]
+- ["Ps8Hashable", "chestMuscle"]
+- !private ["Ps8Hashable", "font"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "leftArmClick"]
+- ["Ps8Hashable", "leftArmMuscle"]
+- ["Ps8Hashable", "leftShoulederClick"]
+- ["Ps8Hashable", "leftShoulederMuscle"]
+- ["Ps8Hashable", "muscleNameLabel"]
+- ["Ps8Hashable", "resetMuscle"]
+- ["Ps8Hashable", "rightArmClick"]
+- ["Ps8Hashable", "rightArmMuscle"]
+- ["Ps8Hashable", "rightShoulderMuscle"]
+- ["Ps8Hashable", "rightShoulederClick"]
+- !private ["Ps8Hashable", "selected"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "UIFont"]
+- !private ["PSo8NSCoding", "WorkoutApiModel"]
+- ["PSo8NSCoding", "absClick"]
+- ["PSo8NSCoding", "absMuscle"]
+- ["PSo8NSCoding", "apiModel"]
+- ["PSo8NSCoding", "bodyImage"]
+- ["PSo8NSCoding", "chestClick"]
+- ["PSo8NSCoding", "chestMuscle"]
+- !private ["PSo8NSCoding", "font"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "leftArmClick"]
+- ["PSo8NSCoding", "leftArmMuscle"]
+- ["PSo8NSCoding", "leftShoulederClick"]
+- ["PSo8NSCoding", "leftShoulederMuscle"]
+- ["PSo8NSCoding", "muscleNameLabel"]
+- ["PSo8NSCoding", "resetMuscle"]
+- ["PSo8NSCoding", "rightArmClick"]
+- ["PSo8NSCoding", "rightArmMuscle"]
+- ["PSo8NSCoding", "rightShoulderMuscle"]
+- ["PSo8NSCoding", "rightShoulederClick"]
+- !private ["PSo8NSCoding", "selected"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "boldSystemFontOfSize"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "UIFont"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "WorkoutApiModel"]
+- ["CSo8NSObject", "absClick"]
+- ["CSo8NSObject", "absMuscle"]
+- ["CSo8NSObject", "apiModel"]
+- ["CSo8NSObject", "bodyImage"]
+- !private ["CSo8NSObject", "boldSystemFontOfSize"]
+- ["CSo8NSObject", "chestClick"]
+- ["CSo8NSObject", "chestMuscle"]
+- !private ["CSo8NSObject", "font"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "leftArmClick"]
+- ["CSo8NSObject", "leftArmMuscle"]
+- ["CSo8NSObject", "leftShoulederClick"]
+- ["CSo8NSObject", "leftShoulederMuscle"]
+- ["CSo8NSObject", "muscleNameLabel"]
+- ["CSo8NSObject", "resetMuscle"]
+- ["CSo8NSObject", "rightArmClick"]
+- ["CSo8NSObject", "rightArmMuscle"]
+- ["CSo8NSObject", "rightShoulderMuscle"]
+- ["CSo8NSObject", "rightShoulederClick"]
+- !private ["CSo8NSObject", "selected"]
+- !private ["CSo8NSObject", "text"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- !private ["PSo16NSObjectProtocol", "WorkoutApiModel"]
+- ["PSo16NSObjectProtocol", "absClick"]
+- ["PSo16NSObjectProtocol", "absMuscle"]
+- ["PSo16NSObjectProtocol", "apiModel"]
+- ["PSo16NSObjectProtocol", "bodyImage"]
+- !private ["PSo16NSObjectProtocol", "boldSystemFontOfSize"]
+- ["PSo16NSObjectProtocol", "chestClick"]
+- ["PSo16NSObjectProtocol", "chestMuscle"]
+- !private ["PSo16NSObjectProtocol", "font"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "leftArmClick"]
+- ["PSo16NSObjectProtocol", "leftArmMuscle"]
+- ["PSo16NSObjectProtocol", "leftShoulederClick"]
+- ["PSo16NSObjectProtocol", "leftShoulederMuscle"]
+- ["PSo16NSObjectProtocol", "muscleNameLabel"]
+- ["PSo16NSObjectProtocol", "resetMuscle"]
+- ["PSo16NSObjectProtocol", "rightArmClick"]
+- ["PSo16NSObjectProtocol", "rightArmMuscle"]
+- ["PSo16NSObjectProtocol", "rightShoulderMuscle"]
+- ["PSo16NSObjectProtocol", "rightShoulederClick"]
+- !private ["PSo16NSObjectProtocol", "selected"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["OC11barbellyApp15WorkoutApiModel9PartsEnum", "ABS"]
+- !private ["OC11barbellyApp15WorkoutApiModel9PartsEnum", "BICEPS"]
+- !private ["OC11barbellyApp15WorkoutApiModel9PartsEnum", "CHEST"]
+- !private ["OC11barbellyApp15WorkoutApiModel9PartsEnum", "SHOULDER"]
+- !private ["OC11barbellyApp15WorkoutApiModel9PartsEnum", "TRICEPS"]
+- !private ["Ps16RawRepresentable", "ABS"]
+- !private ["Ps16RawRepresentable", "BICEPS"]
+- !private ["Ps16RawRepresentable", "CHEST"]
+- !private ["Ps16RawRepresentable", "SHOULDER"]
+- !private ["Ps16RawRepresentable", "TRICEPS"]
+- !private ["PSo29UIAccessibilityIdentification", "UIFont"]
+- !private ["PSo29UIAccessibilityIdentification", "WorkoutApiModel"]
+- ["PSo29UIAccessibilityIdentification", "absClick"]
+- ["PSo29UIAccessibilityIdentification", "absMuscle"]
+- ["PSo29UIAccessibilityIdentification", "apiModel"]
+- ["PSo29UIAccessibilityIdentification", "bodyImage"]
+- ["PSo29UIAccessibilityIdentification", "chestClick"]
+- ["PSo29UIAccessibilityIdentification", "chestMuscle"]
+- !private ["PSo29UIAccessibilityIdentification", "font"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "leftArmClick"]
+- ["PSo29UIAccessibilityIdentification", "leftArmMuscle"]
+- ["PSo29UIAccessibilityIdentification", "leftShoulederClick"]
+- ["PSo29UIAccessibilityIdentification", "leftShoulederMuscle"]
+- ["PSo29UIAccessibilityIdentification", "muscleNameLabel"]
+- ["PSo29UIAccessibilityIdentification", "resetMuscle"]
+- ["PSo29UIAccessibilityIdentification", "rightArmClick"]
+- ["PSo29UIAccessibilityIdentification", "rightArmMuscle"]
+- ["PSo29UIAccessibilityIdentification", "rightShoulderMuscle"]
+- ["PSo29UIAccessibilityIdentification", "rightShoulederClick"]
+- !private ["PSo29UIAccessibilityIdentification", "selected"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "UIFont"]
+- !private ["PSo12UIAppearance", "WorkoutApiModel"]
+- ["PSo12UIAppearance", "absClick"]
+- ["PSo12UIAppearance", "absMuscle"]
+- ["PSo12UIAppearance", "apiModel"]
+- ["PSo12UIAppearance", "bodyImage"]
+- ["PSo12UIAppearance", "chestClick"]
+- ["PSo12UIAppearance", "chestMuscle"]
+- !private ["PSo12UIAppearance", "font"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "leftArmClick"]
+- ["PSo12UIAppearance", "leftArmMuscle"]
+- ["PSo12UIAppearance", "leftShoulederClick"]
+- ["PSo12UIAppearance", "leftShoulederMuscle"]
+- ["PSo12UIAppearance", "muscleNameLabel"]
+- ["PSo12UIAppearance", "resetMuscle"]
+- ["PSo12UIAppearance", "rightArmClick"]
+- ["PSo12UIAppearance", "rightArmMuscle"]
+- ["PSo12UIAppearance", "rightShoulderMuscle"]
+- ["PSo12UIAppearance", "rightShoulederClick"]
+- !private ["PSo12UIAppearance", "selected"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "UIFont"]
+- !private ["PSo21UIAppearanceContainer", "WorkoutApiModel"]
+- ["PSo21UIAppearanceContainer", "absClick"]
+- ["PSo21UIAppearanceContainer", "absMuscle"]
+- ["PSo21UIAppearanceContainer", "apiModel"]
+- ["PSo21UIAppearanceContainer", "bodyImage"]
+- ["PSo21UIAppearanceContainer", "chestClick"]
+- ["PSo21UIAppearanceContainer", "chestMuscle"]
+- !private ["PSo21UIAppearanceContainer", "font"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "leftArmClick"]
+- ["PSo21UIAppearanceContainer", "leftArmMuscle"]
+- ["PSo21UIAppearanceContainer", "leftShoulederClick"]
+- ["PSo21UIAppearanceContainer", "leftShoulederMuscle"]
+- ["PSo21UIAppearanceContainer", "muscleNameLabel"]
+- ["PSo21UIAppearanceContainer", "resetMuscle"]
+- ["PSo21UIAppearanceContainer", "rightArmClick"]
+- ["PSo21UIAppearanceContainer", "rightArmMuscle"]
+- ["PSo21UIAppearanceContainer", "rightShoulderMuscle"]
+- ["PSo21UIAppearanceContainer", "rightShoulederClick"]
+- !private ["PSo21UIAppearanceContainer", "selected"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "selected"]
+- ["CSo24UICollectionReusableView", "AnyObject"]
+- ["CSo24UICollectionReusableView", "UIButton"]
+- !private ["CSo24UICollectionReusableView", "UIFont"]
+- ["CSo24UICollectionReusableView", "UIImageView"]
+- ["CSo24UICollectionReusableView", "UILabel"]
+- ["CSo24UICollectionReusableView", "WorkoutApiModel"]
+- ["CSo24UICollectionReusableView", "absClick"]
+- ["CSo24UICollectionReusableView", "absMuscle"]
+- ["CSo24UICollectionReusableView", "apiModel"]
+- ["CSo24UICollectionReusableView", "bodyImage"]
+- ["CSo24UICollectionReusableView", "chestClick"]
+- ["CSo24UICollectionReusableView", "chestMuscle"]
+- ["CSo24UICollectionReusableView", "init"]
+- ["CSo24UICollectionReusableView", "leftArmClick"]
+- ["CSo24UICollectionReusableView", "leftArmMuscle"]
+- ["CSo24UICollectionReusableView", "leftShoulederClick"]
+- ["CSo24UICollectionReusableView", "leftShoulederMuscle"]
+- ["CSo24UICollectionReusableView", "muscleNameLabel"]
+- ["CSo24UICollectionReusableView", "resetMuscle"]
+- ["CSo24UICollectionReusableView", "rightArmClick"]
+- ["CSo24UICollectionReusableView", "rightArmMuscle"]
+- ["CSo24UICollectionReusableView", "rightShoulderMuscle"]
+- ["CSo24UICollectionReusableView", "rightShoulederClick"]
+- ["CSo20UICollectionViewCell", "AnyObject"]
+- ["CSo20UICollectionViewCell", "UIButton"]
+- !private ["CSo20UICollectionViewCell", "UIFont"]
+- ["CSo20UICollectionViewCell", "UIImageView"]
+- ["CSo20UICollectionViewCell", "UILabel"]
+- ["CSo20UICollectionViewCell", "WorkoutApiModel"]
+- ["CSo20UICollectionViewCell", "absClick"]
+- ["CSo20UICollectionViewCell", "absMuscle"]
+- ["CSo20UICollectionViewCell", "apiModel"]
+- ["CSo20UICollectionViewCell", "bodyImage"]
+- ["CSo20UICollectionViewCell", "chestClick"]
+- ["CSo20UICollectionViewCell", "chestMuscle"]
+- ["CSo20UICollectionViewCell", "init"]
+- ["CSo20UICollectionViewCell", "leftArmClick"]
+- ["CSo20UICollectionViewCell", "leftArmMuscle"]
+- ["CSo20UICollectionViewCell", "leftShoulederClick"]
+- ["CSo20UICollectionViewCell", "leftShoulederMuscle"]
+- ["CSo20UICollectionViewCell", "muscleNameLabel"]
+- ["CSo20UICollectionViewCell", "resetMuscle"]
+- ["CSo20UICollectionViewCell", "rightArmClick"]
+- ["CSo20UICollectionViewCell", "rightArmMuscle"]
+- ["CSo20UICollectionViewCell", "rightShoulderMuscle"]
+- ["CSo20UICollectionViewCell", "rightShoulederClick"]
+- ["CSo20UICollectionViewCell", ""]
+- !private ["CSo9UIControl", "selected"]
+- !private ["PSo17UICoordinateSpace", "UIFont"]
+- !private ["PSo17UICoordinateSpace", "WorkoutApiModel"]
+- ["PSo17UICoordinateSpace", "absClick"]
+- ["PSo17UICoordinateSpace", "absMuscle"]
+- ["PSo17UICoordinateSpace", "apiModel"]
+- ["PSo17UICoordinateSpace", "bodyImage"]
+- ["PSo17UICoordinateSpace", "chestClick"]
+- ["PSo17UICoordinateSpace", "chestMuscle"]
+- !private ["PSo17UICoordinateSpace", "font"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "leftArmClick"]
+- ["PSo17UICoordinateSpace", "leftArmMuscle"]
+- ["PSo17UICoordinateSpace", "leftShoulederClick"]
+- ["PSo17UICoordinateSpace", "leftShoulederMuscle"]
+- ["PSo17UICoordinateSpace", "muscleNameLabel"]
+- ["PSo17UICoordinateSpace", "resetMuscle"]
+- ["PSo17UICoordinateSpace", "rightArmClick"]
+- ["PSo17UICoordinateSpace", "rightArmMuscle"]
+- ["PSo17UICoordinateSpace", "rightShoulderMuscle"]
+- ["PSo17UICoordinateSpace", "rightShoulederClick"]
+- !private ["PSo17UICoordinateSpace", "selected"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "UIFont"]
+- !private ["PSo13UIDynamicItem", "WorkoutApiModel"]
+- ["PSo13UIDynamicItem", "absClick"]
+- ["PSo13UIDynamicItem", "absMuscle"]
+- ["PSo13UIDynamicItem", "apiModel"]
+- ["PSo13UIDynamicItem", "bodyImage"]
+- ["PSo13UIDynamicItem", "chestClick"]
+- ["PSo13UIDynamicItem", "chestMuscle"]
+- !private ["PSo13UIDynamicItem", "font"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "leftArmClick"]
+- ["PSo13UIDynamicItem", "leftArmMuscle"]
+- ["PSo13UIDynamicItem", "leftShoulederClick"]
+- ["PSo13UIDynamicItem", "leftShoulederMuscle"]
+- ["PSo13UIDynamicItem", "muscleNameLabel"]
+- ["PSo13UIDynamicItem", "resetMuscle"]
+- ["PSo13UIDynamicItem", "rightArmClick"]
+- ["PSo13UIDynamicItem", "rightArmMuscle"]
+- ["PSo13UIDynamicItem", "rightShoulderMuscle"]
+- ["PSo13UIDynamicItem", "rightShoulederClick"]
+- !private ["PSo13UIDynamicItem", "selected"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "UIFont"]
+- !private ["PSo18UIFocusEnvironment", "WorkoutApiModel"]
+- ["PSo18UIFocusEnvironment", "absClick"]
+- ["PSo18UIFocusEnvironment", "absMuscle"]
+- ["PSo18UIFocusEnvironment", "apiModel"]
+- ["PSo18UIFocusEnvironment", "bodyImage"]
+- ["PSo18UIFocusEnvironment", "chestClick"]
+- ["PSo18UIFocusEnvironment", "chestMuscle"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "leftArmClick"]
+- ["PSo18UIFocusEnvironment", "leftArmMuscle"]
+- ["PSo18UIFocusEnvironment", "leftShoulederClick"]
+- ["PSo18UIFocusEnvironment", "leftShoulederMuscle"]
+- ["PSo18UIFocusEnvironment", "muscleNameLabel"]
+- ["PSo18UIFocusEnvironment", "resetMuscle"]
+- ["PSo18UIFocusEnvironment", "rightArmClick"]
+- ["PSo18UIFocusEnvironment", "rightArmMuscle"]
+- ["PSo18UIFocusEnvironment", "rightShoulderMuscle"]
+- ["PSo18UIFocusEnvironment", "rightShoulederClick"]
+- !private ["PSo18UIFocusEnvironment", "selected"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo6UIFont", "boldSystemFontOfSize"]
+- !private ["CSo7UILabel", "font"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "UIFont"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "WorkoutApiModel"]
+- ["CSo11UIResponder", "absClick"]
+- ["CSo11UIResponder", "absMuscle"]
+- ["CSo11UIResponder", "apiModel"]
+- ["CSo11UIResponder", "bodyImage"]
+- ["CSo11UIResponder", "chestClick"]
+- ["CSo11UIResponder", "chestMuscle"]
+- !private ["CSo11UIResponder", "font"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "leftArmClick"]
+- ["CSo11UIResponder", "leftArmMuscle"]
+- ["CSo11UIResponder", "leftShoulederClick"]
+- ["CSo11UIResponder", "leftShoulederMuscle"]
+- ["CSo11UIResponder", "muscleNameLabel"]
+- ["CSo11UIResponder", "resetMuscle"]
+- ["CSo11UIResponder", "rightArmClick"]
+- ["CSo11UIResponder", "rightArmMuscle"]
+- ["CSo11UIResponder", "rightShoulderMuscle"]
+- ["CSo11UIResponder", "rightShoulederClick"]
+- !private ["CSo11UIResponder", "selected"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["PSo18UITraitEnvironment", "UIFont"]
+- !private ["PSo18UITraitEnvironment", "WorkoutApiModel"]
+- ["PSo18UITraitEnvironment", "absClick"]
+- ["PSo18UITraitEnvironment", "absMuscle"]
+- ["PSo18UITraitEnvironment", "apiModel"]
+- ["PSo18UITraitEnvironment", "bodyImage"]
+- ["PSo18UITraitEnvironment", "chestClick"]
+- ["PSo18UITraitEnvironment", "chestMuscle"]
+- !private ["PSo18UITraitEnvironment", "font"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "leftArmClick"]
+- ["PSo18UITraitEnvironment", "leftArmMuscle"]
+- ["PSo18UITraitEnvironment", "leftShoulederClick"]
+- ["PSo18UITraitEnvironment", "leftShoulederMuscle"]
+- ["PSo18UITraitEnvironment", "muscleNameLabel"]
+- ["PSo18UITraitEnvironment", "resetMuscle"]
+- ["PSo18UITraitEnvironment", "rightArmClick"]
+- ["PSo18UITraitEnvironment", "rightArmMuscle"]
+- ["PSo18UITraitEnvironment", "rightShoulderMuscle"]
+- ["PSo18UITraitEnvironment", "rightShoulederClick"]
+- !private ["PSo18UITraitEnvironment", "selected"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "AnyObject"]
+- ["CSo6UIView", "UIButton"]
+- !private ["CSo6UIView", "UIFont"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "WorkoutApiModel"]
+- ["CSo6UIView", "absClick"]
+- ["CSo6UIView", "absMuscle"]
+- ["CSo6UIView", "apiModel"]
+- ["CSo6UIView", "bodyImage"]
+- ["CSo6UIView", "chestClick"]
+- ["CSo6UIView", "chestMuscle"]
+- !private ["CSo6UIView", "font"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "leftArmClick"]
+- ["CSo6UIView", "leftArmMuscle"]
+- ["CSo6UIView", "leftShoulederClick"]
+- ["CSo6UIView", "leftShoulederMuscle"]
+- ["CSo6UIView", "muscleNameLabel"]
+- ["CSo6UIView", "resetMuscle"]
+- ["CSo6UIView", "rightArmClick"]
+- ["CSo6UIView", "rightArmMuscle"]
+- ["CSo6UIView", "rightShoulderMuscle"]
+- ["CSo6UIView", "rightShoulederClick"]
+- !private ["CSo6UIView", "selected"]
+- !private ["CSo6UIView", "text"]
+- !private ["C11barbellyApp15WorkoutApiModel", "PartsEnum"]
+- !private ["C11barbellyApp15WorkoutApiModel", "doDataRequest"]
+- !private ["Ps12_Reflectable", "UIFont"]
+- !private ["Ps12_Reflectable", "WorkoutApiModel"]
+- ["Ps12_Reflectable", "absClick"]
+- ["Ps12_Reflectable", "absMuscle"]
+- ["Ps12_Reflectable", "apiModel"]
+- ["Ps12_Reflectable", "bodyImage"]
+- ["Ps12_Reflectable", "chestClick"]
+- ["Ps12_Reflectable", "chestMuscle"]
+- !private ["Ps12_Reflectable", "font"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "leftArmClick"]
+- ["Ps12_Reflectable", "leftArmMuscle"]
+- ["Ps12_Reflectable", "leftShoulederClick"]
+- ["Ps12_Reflectable", "leftShoulederMuscle"]
+- ["Ps12_Reflectable", "muscleNameLabel"]
+- ["Ps12_Reflectable", "resetMuscle"]
+- ["Ps12_Reflectable", "rightArmClick"]
+- ["Ps12_Reflectable", "rightArmMuscle"]
+- ["Ps12_Reflectable", "rightShoulderMuscle"]
+- ["Ps12_Reflectable", "rightShoulederClick"]
+- !private ["Ps12_Reflectable", "selected"]
+- !private ["Ps12_Reflectable", "text"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "C11barbellyApp13FrontBodyCell"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "OC11barbellyApp15WorkoutApiModel9PartsEnum"
+- !private "Ps16RawRepresentable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "CSo24UICollectionReusableView"
+- "CSo20UICollectionViewCell"
+- !private "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo6UIFont"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "C11barbellyApp15WorkoutApiModel"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/barbellyApp/barbellyApp-Bridging-Header.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/SubClassHandler.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBUser+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRelation+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBQuery+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBObject+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBFacebookUtils+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBSetOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRemoveOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRelationOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBIncrementOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBDeleteOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBAddUniqueOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBAddOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NSDataBase64Encode.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBURLConnection.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBTwitterLoginView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAServiceTicket.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAHMAC_SHA1SignatureProvider.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOASignatureProviding.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAToken.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAMutableURLRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOADataFetcher.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAConsumer.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/sha1.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/hmac.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/Base64Transcoder.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NSURLBase.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NSStringURLEncoding.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOARequestParameter.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NSMutableURLRequestParameters.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRichPushView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBCloseImageView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBObject+Subclass.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBGoogleUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBGoogleUtils+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBFacebookUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBReachability.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBSubclassing.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBScriptService.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBScript.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBTwitterUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBFile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBUser.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBError.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBACL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRole.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRelation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBGeoPoint.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBQuery.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBAnonymousUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBPush.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBObject.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBInstallation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBAnalytics.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMB.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMB-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKFontAwesome.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKIcon.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/FontAwesomeKit/FontAwesomeKit.framework/Headers/FontAwesomeKit-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/FontAwesomeKit/FontAwesomeKit.framework/Modules/module.modulemap"
+interface-hash: "57902d277581ff2c3e8e8b43d215ef9a"

@@ -1,0 +1,204 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MessageCell"
+provides-nominal:
+- "C11barbellyApp11MessageCell"
+provides-member:
+- ["C11barbellyApp11MessageCell", ""]
+provides-dynamic-lookup:
+- "workoutDayButton"
+- "delegate"
+depends-top-level:
+- "TopViewController"
+- !private "StringLiteralType"
+- "UITableViewCell"
+- "MessageCell"
+- "AnyObject"
+depends-member:
+- ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "performSegueWithIdentifier"]
+- ["Ps9AnyObject", "workoutDayButton"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "delegate"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "performSegueWithIdentifier"]
+- ["Ps11CVarArgType", "workoutDayButton"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegueWithIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "workoutDayButton"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "performSegueWithIdentifier"]
+- ["Ps23CustomStringConvertible", "workoutDayButton"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "performSegueWithIdentifier"]
+- ["Ps9Equatable", "workoutDayButton"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "performSegueWithIdentifier"]
+- ["Ps8Hashable", "workoutDayButton"]
+- ["Ps8Hashable", ""]
+- ["C11barbellyApp11MessageCell", "AnyObject"]
+- ["C11barbellyApp11MessageCell", "TopViewController"]
+- ["C11barbellyApp11MessageCell", "deinit"]
+- ["C11barbellyApp11MessageCell", "delegate"]
+- ["C11barbellyApp11MessageCell", "init"]
+- ["C11barbellyApp11MessageCell", "workoutDayButton"]
+- ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- ["PSo8NSCoding", "workoutDayButton"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "TopViewController"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- ["CSo8NSObject", "workoutDayButton"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- ["PSo16NSObjectProtocol", "workoutDayButton"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C11barbellyApp17TopViewController", "deinit"]
+- !private ["C11barbellyApp17TopViewController", "performSegueWithIdentifier"]
+- ["PSo29UIAccessibilityIdentification", "delegate"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "workoutDayButton"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "delegate"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "workoutDayButton"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- ["PSo21UIAppearanceContainer", "workoutDayButton"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- ["PSo17UICoordinateSpace", "delegate"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "workoutDayButton"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "delegate"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "workoutDayButton"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UIFocusEnvironment", "workoutDayButton"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "delegate"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "workoutDayButton"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "TopViewController"]
+- ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- ["CSo11UIResponder", "workoutDayButton"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- !private ["PSo16UITabBarDelegate", "performSegueWithIdentifier"]
+- ["CSo15UITableViewCell", "AnyObject"]
+- ["CSo15UITableViewCell", "TopViewController"]
+- ["CSo15UITableViewCell", "delegate"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "workoutDayButton"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UITraitEnvironment", "workoutDayButton"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "AnyObject"]
+- ["CSo6UIView", "TopViewController"]
+- ["CSo6UIView", "delegate"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "workoutDayButton"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- !private ["C11barbellyApp14ViewController", "performSegueWithIdentifier"]
+- ["Ps12_Reflectable", "delegate"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "workoutDayButton"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C11barbellyApp11MessageCell"
+- "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C11barbellyApp17TopViewController"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- !private "PSo16UITabBarDelegate"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "C11barbellyApp14ViewController"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/barbellyApp/barbellyApp-Bridging-Header.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMB.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBAnalytics.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBInstallation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBObject.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBPush.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBAnonymousUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBQuery.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBGeoPoint.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRelation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRole.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBACL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBError.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBUser.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBFile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBTwitterUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBScript.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBScriptService.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBSubclassing.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBReachability.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FontAwesomeKit.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKIcon.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKFontAwesome.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKFoundationIcons.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKZocial.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKIonIcons.h"
+interface-hash: "aa1686f58b41e5c92e6266fff7140d66"

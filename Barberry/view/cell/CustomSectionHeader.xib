@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomSectionHeader" rowHeight="47" id="nEN-wB-sTi" customClass="CustomSectionHeader" customModule="barbellyApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nEN-wB-sTi" id="qQA-ex-Xad">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="46.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="kei" translatesAutoresizingMaskIntoConstraints="NO" id="NKC-Li-63E">
+                        <rect key="frame" x="10" y="7" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="T3k-4E-v8e"/>
+                            <constraint firstAttribute="height" constant="32" id="bwm-Ov-Cjw"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isF-ud-Q2r">
+                        <rect key="frame" x="50" y="14" width="38" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.16862745098039217" green="0.16862745098039217" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="isF-ud-Q2r" firstAttribute="centerY" secondItem="qQA-ex-Xad" secondAttribute="centerY" id="0X8-rO-5iC"/>
+                    <constraint firstItem="NKC-Li-63E" firstAttribute="centerY" secondItem="qQA-ex-Xad" secondAttribute="centerY" id="GR0-mc-jap"/>
+                    <constraint firstItem="isF-ud-Q2r" firstAttribute="leading" secondItem="NKC-Li-63E" secondAttribute="trailing" constant="8" id="Lxs-di-DPL"/>
+                    <constraint firstItem="NKC-Li-63E" firstAttribute="leading" secondItem="qQA-ex-Xad" secondAttribute="leading" constant="10" id="ZNb-Si-XgJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="userImage" destination="NKC-Li-63E" id="IQf-ew-2uS"/>
+                <outlet property="userName" destination="isF-ud-Q2r" id="B9d-IF-lf0"/>
+            </connections>
+            <point key="canvasLocation" x="422" y="613.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="kei" width="1224" height="1224"/>
+    </resources>
+</document>

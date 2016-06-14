@@ -1,0 +1,55 @@
+PODS:
+  - Bolts (1.7.0):
+    - Bolts/AppLinks (= 1.7.0)
+    - Bolts/Tasks (= 1.7.0)
+  - Bolts/AppLinks (1.7.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.7.0)
+  - FBSDKCoreKit (4.12.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.12.0):
+    - FBSDKCoreKit
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - NCMB (2.3.1):
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+
+DEPENDENCIES:
+  - FontAwesomeKit/FontAwesome (from `https://github.com/PrideChung/FontAwesomeKit.git`)
+  - NCMB (from `https://github.com/FujikawaKei/ncmb_ios.git`)
+  - SDWebImage
+  - UIActivityIndicator-for-SDWebImage
+
+EXTERNAL SOURCES:
+  FontAwesomeKit:
+    :git: https://github.com/PrideChung/FontAwesomeKit.git
+  NCMB:
+    :git: https://github.com/FujikawaKei/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  FontAwesomeKit:
+    :commit: eac30313fee77f6db1b6832b1d4b7d8f2007b381
+    :git: https://github.com/PrideChung/FontAwesomeKit.git
+  NCMB:
+    :commit: 3146e03d1452e5fccbaafe4907c9e5a571b4e3d1
+    :git: https://github.com/FujikawaKei/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
+  FBSDKCoreKit: 6e56d5a2a64a755ad4efb5dbeee8f82fb1b99775
+  FBSDKLoginKit: 03f68a8d48c2c8bb81d7eb8097973d483543e1f6
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  NCMB: 420bc04594bc61cc84fc459ede4b528604176628
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+
+PODFILE CHECKSUM: 829e6be0ff1f86daa2f3e495953506b5e2e17c1e
+
+COCOAPODS: 1.0.0

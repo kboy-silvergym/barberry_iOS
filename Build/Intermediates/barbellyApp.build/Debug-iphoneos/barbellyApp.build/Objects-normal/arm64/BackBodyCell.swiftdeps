@@ -1,0 +1,522 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BackBodyCell"
+provides-nominal:
+- "C11barbellyApp12BackBodyCell"
+provides-member:
+- ["C11barbellyApp12BackBodyCell", ""]
+provides-dynamic-lookup:
+- "spinaeClick"
+- "latMuscle"
+- "trapClick"
+- "latClick"
+- "spinaeMuscle"
+- "resetMuscle"
+- "muscleNameLabel"
+- "trapMuscle"
+depends-top-level:
+- "WorkoutApiModel"
+- "BackBodyCell"
+- "UICollectionViewCell"
+- !private "BooleanLiteralType"
+- "AnyObject"
+- "UIButton"
+- "UILabel"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "PartsEnum"]
+- !private ["Ps9AnyObject", "WorkoutApiModel"]
+- ["Ps9AnyObject", "apiModel"]
+- !private ["Ps9AnyObject", "doDataRequest"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "latClick"]
+- ["Ps9AnyObject", "latMuscle"]
+- ["Ps9AnyObject", "muscleNameLabel"]
+- ["Ps9AnyObject", "resetMuscle"]
+- !private ["Ps9AnyObject", "selected"]
+- ["Ps9AnyObject", "spinaeClick"]
+- ["Ps9AnyObject", "spinaeMuscle"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "trapClick"]
+- ["Ps9AnyObject", "trapMuscle"]
+- ["Ps9AnyObject", ""]
+- ["C11barbellyApp12BackBodyCell", "AnyObject"]
+- ["C11barbellyApp12BackBodyCell", "UIButton"]
+- ["C11barbellyApp12BackBodyCell", "UILabel"]
+- ["C11barbellyApp12BackBodyCell", "WorkoutApiModel"]
+- ["C11barbellyApp12BackBodyCell", "apiModel"]
+- ["C11barbellyApp12BackBodyCell", "deinit"]
+- ["C11barbellyApp12BackBodyCell", "init"]
+- ["C11barbellyApp12BackBodyCell", "latClick"]
+- ["C11barbellyApp12BackBodyCell", "latMuscle"]
+- ["C11barbellyApp12BackBodyCell", "muscleNameLabel"]
+- ["C11barbellyApp12BackBodyCell", "resetMuscle"]
+- ["C11barbellyApp12BackBodyCell", "spinaeClick"]
+- ["C11barbellyApp12BackBodyCell", "spinaeMuscle"]
+- ["C11barbellyApp12BackBodyCell", "trapClick"]
+- ["C11barbellyApp12BackBodyCell", "trapMuscle"]
+- !private ["Ps11CVarArgType", "WorkoutApiModel"]
+- ["Ps11CVarArgType", "apiModel"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "latClick"]
+- ["Ps11CVarArgType", "latMuscle"]
+- ["Ps11CVarArgType", "muscleNameLabel"]
+- ["Ps11CVarArgType", "resetMuscle"]
+- !private ["Ps11CVarArgType", "selected"]
+- ["Ps11CVarArgType", "spinaeClick"]
+- ["Ps11CVarArgType", "spinaeMuscle"]
+- !private ["Ps11CVarArgType", "text"]
+- ["Ps11CVarArgType", "trapClick"]
+- ["Ps11CVarArgType", "trapMuscle"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "WorkoutApiModel"]
+- ["Ps28CustomDebugStringConvertible", "apiModel"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "latClick"]
+- ["Ps28CustomDebugStringConvertible", "latMuscle"]
+- ["Ps28CustomDebugStringConvertible", "muscleNameLabel"]
+- ["Ps28CustomDebugStringConvertible", "resetMuscle"]
+- !private ["Ps28CustomDebugStringConvertible", "selected"]
+- ["Ps28CustomDebugStringConvertible", "spinaeClick"]
+- ["Ps28CustomDebugStringConvertible", "spinaeMuscle"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "trapClick"]
+- ["Ps28CustomDebugStringConvertible", "trapMuscle"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "WorkoutApiModel"]
+- ["Ps23CustomStringConvertible", "apiModel"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "latClick"]
+- ["Ps23CustomStringConvertible", "latMuscle"]
+- ["Ps23CustomStringConvertible", "muscleNameLabel"]
+- ["Ps23CustomStringConvertible", "resetMuscle"]
+- !private ["Ps23CustomStringConvertible", "selected"]
+- ["Ps23CustomStringConvertible", "spinaeClick"]
+- ["Ps23CustomStringConvertible", "spinaeMuscle"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "trapClick"]
+- ["Ps23CustomStringConvertible", "trapMuscle"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "LAT"]
+- !private ["Ps9Equatable", "SPINAE"]
+- !private ["Ps9Equatable", "TRAPEZIUS"]
+- !private ["Ps9Equatable", "WorkoutApiModel"]
+- ["Ps9Equatable", "apiModel"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "latClick"]
+- ["Ps9Equatable", "latMuscle"]
+- ["Ps9Equatable", "muscleNameLabel"]
+- ["Ps9Equatable", "resetMuscle"]
+- !private ["Ps9Equatable", "selected"]
+- ["Ps9Equatable", "spinaeClick"]
+- ["Ps9Equatable", "spinaeMuscle"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "trapClick"]
+- ["Ps9Equatable", "trapMuscle"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "LAT"]
+- !private ["Ps8Hashable", "SPINAE"]
+- !private ["Ps8Hashable", "TRAPEZIUS"]
+- !private ["Ps8Hashable", "WorkoutApiModel"]
+- ["Ps8Hashable", "apiModel"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "latClick"]
+- ["Ps8Hashable", "latMuscle"]
+- ["Ps8Hashable", "muscleNameLabel"]
+- ["Ps8Hashable", "resetMuscle"]
+- !private ["Ps8Hashable", "selected"]
+- ["Ps8Hashable", "spinaeClick"]
+- ["Ps8Hashable", "spinaeMuscle"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "trapClick"]
+- ["Ps8Hashable", "trapMuscle"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "WorkoutApiModel"]
+- ["PSo8NSCoding", "apiModel"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "latClick"]
+- ["PSo8NSCoding", "latMuscle"]
+- ["PSo8NSCoding", "muscleNameLabel"]
+- ["PSo8NSCoding", "resetMuscle"]
+- !private ["PSo8NSCoding", "selected"]
+- ["PSo8NSCoding", "spinaeClick"]
+- ["PSo8NSCoding", "spinaeMuscle"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "trapClick"]
+- ["PSo8NSCoding", "trapMuscle"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "WorkoutApiModel"]
+- ["CSo8NSObject", "apiModel"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "latClick"]
+- ["CSo8NSObject", "latMuscle"]
+- ["CSo8NSObject", "muscleNameLabel"]
+- ["CSo8NSObject", "resetMuscle"]
+- !private ["CSo8NSObject", "selected"]
+- ["CSo8NSObject", "spinaeClick"]
+- ["CSo8NSObject", "spinaeMuscle"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "trapClick"]
+- ["CSo8NSObject", "trapMuscle"]
+- !private ["PSo16NSObjectProtocol", "WorkoutApiModel"]
+- ["PSo16NSObjectProtocol", "apiModel"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "latClick"]
+- ["PSo16NSObjectProtocol", "latMuscle"]
+- ["PSo16NSObjectProtocol", "muscleNameLabel"]
+- ["PSo16NSObjectProtocol", "resetMuscle"]
+- !private ["PSo16NSObjectProtocol", "selected"]
+- ["PSo16NSObjectProtocol", "spinaeClick"]
+- ["PSo16NSObjectProtocol", "spinaeMuscle"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "trapClick"]
+- ["PSo16NSObjectProtocol", "trapMuscle"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["OC11barbellyApp15WorkoutApiModel9PartsEnum", "LAT"]
+- !private ["OC11barbellyApp15WorkoutApiModel9PartsEnum", "SPINAE"]
+- !private ["OC11barbellyApp15WorkoutApiModel9PartsEnum", "TRAPEZIUS"]
+- !private ["Ps16RawRepresentable", "LAT"]
+- !private ["Ps16RawRepresentable", "SPINAE"]
+- !private ["Ps16RawRepresentable", "TRAPEZIUS"]
+- !private ["PSo29UIAccessibilityIdentification", "WorkoutApiModel"]
+- ["PSo29UIAccessibilityIdentification", "apiModel"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "latClick"]
+- ["PSo29UIAccessibilityIdentification", "latMuscle"]
+- ["PSo29UIAccessibilityIdentification", "muscleNameLabel"]
+- ["PSo29UIAccessibilityIdentification", "resetMuscle"]
+- !private ["PSo29UIAccessibilityIdentification", "selected"]
+- ["PSo29UIAccessibilityIdentification", "spinaeClick"]
+- ["PSo29UIAccessibilityIdentification", "spinaeMuscle"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", "trapClick"]
+- ["PSo29UIAccessibilityIdentification", "trapMuscle"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "WorkoutApiModel"]
+- ["PSo12UIAppearance", "apiModel"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "latClick"]
+- ["PSo12UIAppearance", "latMuscle"]
+- ["PSo12UIAppearance", "muscleNameLabel"]
+- ["PSo12UIAppearance", "resetMuscle"]
+- !private ["PSo12UIAppearance", "selected"]
+- ["PSo12UIAppearance", "spinaeClick"]
+- ["PSo12UIAppearance", "spinaeMuscle"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", "trapClick"]
+- ["PSo12UIAppearance", "trapMuscle"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "WorkoutApiModel"]
+- ["PSo21UIAppearanceContainer", "apiModel"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "latClick"]
+- ["PSo21UIAppearanceContainer", "latMuscle"]
+- ["PSo21UIAppearanceContainer", "muscleNameLabel"]
+- ["PSo21UIAppearanceContainer", "resetMuscle"]
+- !private ["PSo21UIAppearanceContainer", "selected"]
+- ["PSo21UIAppearanceContainer", "spinaeClick"]
+- ["PSo21UIAppearanceContainer", "spinaeMuscle"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "trapClick"]
+- ["PSo21UIAppearanceContainer", "trapMuscle"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "selected"]
+- ["CSo24UICollectionReusableView", "AnyObject"]
+- ["CSo24UICollectionReusableView", "UIButton"]
+- ["CSo24UICollectionReusableView", "UILabel"]
+- ["CSo24UICollectionReusableView", "WorkoutApiModel"]
+- ["CSo24UICollectionReusableView", "apiModel"]
+- ["CSo24UICollectionReusableView", "init"]
+- ["CSo24UICollectionReusableView", "latClick"]
+- ["CSo24UICollectionReusableView", "latMuscle"]
+- ["CSo24UICollectionReusableView", "muscleNameLabel"]
+- ["CSo24UICollectionReusableView", "resetMuscle"]
+- ["CSo24UICollectionReusableView", "spinaeClick"]
+- ["CSo24UICollectionReusableView", "spinaeMuscle"]
+- ["CSo24UICollectionReusableView", "trapClick"]
+- ["CSo24UICollectionReusableView", "trapMuscle"]
+- ["CSo20UICollectionViewCell", "AnyObject"]
+- ["CSo20UICollectionViewCell", "UIButton"]
+- ["CSo20UICollectionViewCell", "UILabel"]
+- ["CSo20UICollectionViewCell", "WorkoutApiModel"]
+- ["CSo20UICollectionViewCell", "apiModel"]
+- ["CSo20UICollectionViewCell", "init"]
+- ["CSo20UICollectionViewCell", "latClick"]
+- ["CSo20UICollectionViewCell", "latMuscle"]
+- ["CSo20UICollectionViewCell", "muscleNameLabel"]
+- ["CSo20UICollectionViewCell", "resetMuscle"]
+- ["CSo20UICollectionViewCell", "spinaeClick"]
+- ["CSo20UICollectionViewCell", "spinaeMuscle"]
+- ["CSo20UICollectionViewCell", "trapClick"]
+- ["CSo20UICollectionViewCell", "trapMuscle"]
+- ["CSo20UICollectionViewCell", ""]
+- !private ["CSo9UIControl", "selected"]
+- !private ["PSo17UICoordinateSpace", "WorkoutApiModel"]
+- ["PSo17UICoordinateSpace", "apiModel"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "latClick"]
+- ["PSo17UICoordinateSpace", "latMuscle"]
+- ["PSo17UICoordinateSpace", "muscleNameLabel"]
+- ["PSo17UICoordinateSpace", "resetMuscle"]
+- !private ["PSo17UICoordinateSpace", "selected"]
+- ["PSo17UICoordinateSpace", "spinaeClick"]
+- ["PSo17UICoordinateSpace", "spinaeMuscle"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", "trapClick"]
+- ["PSo17UICoordinateSpace", "trapMuscle"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "WorkoutApiModel"]
+- ["PSo13UIDynamicItem", "apiModel"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "latClick"]
+- ["PSo13UIDynamicItem", "latMuscle"]
+- ["PSo13UIDynamicItem", "muscleNameLabel"]
+- ["PSo13UIDynamicItem", "resetMuscle"]
+- !private ["PSo13UIDynamicItem", "selected"]
+- ["PSo13UIDynamicItem", "spinaeClick"]
+- ["PSo13UIDynamicItem", "spinaeMuscle"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", "trapClick"]
+- ["PSo13UIDynamicItem", "trapMuscle"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "WorkoutApiModel"]
+- ["PSo18UIFocusEnvironment", "apiModel"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "latClick"]
+- ["PSo18UIFocusEnvironment", "latMuscle"]
+- ["PSo18UIFocusEnvironment", "muscleNameLabel"]
+- ["PSo18UIFocusEnvironment", "resetMuscle"]
+- !private ["PSo18UIFocusEnvironment", "selected"]
+- ["PSo18UIFocusEnvironment", "spinaeClick"]
+- ["PSo18UIFocusEnvironment", "spinaeMuscle"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "trapClick"]
+- ["PSo18UIFocusEnvironment", "trapMuscle"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "WorkoutApiModel"]
+- ["CSo11UIResponder", "apiModel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "latClick"]
+- ["CSo11UIResponder", "latMuscle"]
+- ["CSo11UIResponder", "muscleNameLabel"]
+- ["CSo11UIResponder", "resetMuscle"]
+- !private ["CSo11UIResponder", "selected"]
+- ["CSo11UIResponder", "spinaeClick"]
+- ["CSo11UIResponder", "spinaeMuscle"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "trapClick"]
+- ["CSo11UIResponder", "trapMuscle"]
+- !private ["PSo18UITraitEnvironment", "WorkoutApiModel"]
+- ["PSo18UITraitEnvironment", "apiModel"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "latClick"]
+- ["PSo18UITraitEnvironment", "latMuscle"]
+- ["PSo18UITraitEnvironment", "muscleNameLabel"]
+- ["PSo18UITraitEnvironment", "resetMuscle"]
+- !private ["PSo18UITraitEnvironment", "selected"]
+- ["PSo18UITraitEnvironment", "spinaeClick"]
+- ["PSo18UITraitEnvironment", "spinaeMuscle"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "trapClick"]
+- ["PSo18UITraitEnvironment", "trapMuscle"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "AnyObject"]
+- ["CSo6UIView", "UIButton"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "WorkoutApiModel"]
+- ["CSo6UIView", "apiModel"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "latClick"]
+- ["CSo6UIView", "latMuscle"]
+- ["CSo6UIView", "muscleNameLabel"]
+- ["CSo6UIView", "resetMuscle"]
+- !private ["CSo6UIView", "selected"]
+- ["CSo6UIView", "spinaeClick"]
+- ["CSo6UIView", "spinaeMuscle"]
+- !private ["CSo6UIView", "text"]
+- ["CSo6UIView", "trapClick"]
+- ["CSo6UIView", "trapMuscle"]
+- !private ["C11barbellyApp15WorkoutApiModel", "PartsEnum"]
+- !private ["C11barbellyApp15WorkoutApiModel", "doDataRequest"]
+- !private ["Ps12_Reflectable", "WorkoutApiModel"]
+- ["Ps12_Reflectable", "apiModel"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "latClick"]
+- ["Ps12_Reflectable", "latMuscle"]
+- ["Ps12_Reflectable", "muscleNameLabel"]
+- ["Ps12_Reflectable", "resetMuscle"]
+- !private ["Ps12_Reflectable", "selected"]
+- ["Ps12_Reflectable", "spinaeClick"]
+- ["Ps12_Reflectable", "spinaeMuscle"]
+- !private ["Ps12_Reflectable", "text"]
+- ["Ps12_Reflectable", "trapClick"]
+- ["Ps12_Reflectable", "trapMuscle"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C11barbellyApp12BackBodyCell"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "OC11barbellyApp15WorkoutApiModel9PartsEnum"
+- !private "Ps16RawRepresentable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "CSo24UICollectionReusableView"
+- "CSo20UICollectionViewCell"
+- !private "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "C11barbellyApp15WorkoutApiModel"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/barbellyApp/barbellyApp-Bridging-Header.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/SubClassHandler.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBUser+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRelation+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBQuery+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBObject+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBFacebookUtils+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBSetOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRemoveOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRelationOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBIncrementOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBDeleteOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBAddUniqueOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBAddOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NSDataBase64Encode.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBURLConnection.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBTwitterLoginView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAServiceTicket.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAHMAC_SHA1SignatureProvider.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOASignatureProviding.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAToken.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAMutableURLRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOADataFetcher.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAConsumer.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/sha1.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/hmac.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/Base64Transcoder.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NSURLBase.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NSStringURLEncoding.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOARequestParameter.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NSMutableURLRequestParameters.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRichPushView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBCloseImageView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBObject+Subclass.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBGoogleUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBGoogleUtils+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBReachability.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBSubclassing.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBFacebookUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBScriptService.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBScript.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBTwitterUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBFile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBUser.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBError.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBACL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRole.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRelation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBGeoPoint.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBQuery.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBAnonymousUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBPush.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBObject.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBInstallation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBAnalytics.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMB.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMB-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FontAwesomeKit.framework/Headers/FAKFontAwesome.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FontAwesomeKit.framework/Headers/FAKIcon.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FontAwesomeKit.framework/Headers/FontAwesomeKit-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FontAwesomeKit.framework/Modules/module.modulemap"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTask.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFURL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Modules/module.modulemap"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "b9eca88337a01ff2a41c33e743119b5a"

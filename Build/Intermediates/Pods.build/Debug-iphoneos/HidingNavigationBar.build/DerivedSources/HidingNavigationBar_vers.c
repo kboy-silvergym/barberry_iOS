@@ -1,0 +1,1 @@
+ const unsigned char HidingNavigationBarVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:HidingNavigationBar  PROJECT:Pods-1" "\n"; const double HidingNavigationBarVersionNumber __attribute__ ((used)) = (double)1.;

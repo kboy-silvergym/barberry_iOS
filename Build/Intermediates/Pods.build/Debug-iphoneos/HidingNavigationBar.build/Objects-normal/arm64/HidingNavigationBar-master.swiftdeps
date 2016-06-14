@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "9d971ff8148a2d3e1af3807dadc49b39"
+build_time: [516780808, 538487000]
+inputs:
+  "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/HidingNavigationBar/HidingNavigationBar/HidingNavigationBarManager.swift": [516777255, 0]
+  "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/HidingNavigationBar/HidingNavigationBar/HidingViewController.swift": [516777255, 0]

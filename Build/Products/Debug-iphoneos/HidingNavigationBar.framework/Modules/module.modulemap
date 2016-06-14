@@ -1,0 +1,10 @@
+framework module HidingNavigationBar {
+  umbrella header "HidingNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module HidingNavigationBar.Swift {
+    header "HidingNavigationBar-Swift.h"
+}

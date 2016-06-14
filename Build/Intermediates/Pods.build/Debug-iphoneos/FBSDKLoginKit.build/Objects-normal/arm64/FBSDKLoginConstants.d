@@ -1,0 +1,48 @@
+dependencies: \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginConstants.m \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Target\ Support\ Files/FBSDKLoginKit/FBSDKLoginKit-prefix.pch \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginConstants.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Intermediates/Pods.build/Debug-iphoneos/FBSDKCoreKit.build/module.modulemap \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Intermediates/Pods.build/Debug-iphoneos/Bolts.build/module.modulemap \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/Common/Bolts.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/Common/BFTask.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/Common/BFExecutor.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/Common/BFCancellationToken.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/iOS/BFURL_Internal.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/iOS/BFURL.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/iOS/BFMeasurementEvent_Internal.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/iOS/BFAppLink_Internal.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView_Internal.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Bolts/Bolts/iOS/BFAppLink.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Target\ Support\ Files/Bolts/Bolts-umbrella.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h \
+  /Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Target\ Support\ Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h

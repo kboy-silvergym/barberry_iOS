@@ -1,0 +1,473 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SearchViewDataSource"
+provides-nominal:
+- "C11barbellyApp20SearchViewDataSource"
+provides-member:
+- ["C11barbellyApp20SearchViewDataSource", ""]
+provides-dynamic-lookup:
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "numberOfSectionsInTableView"
+- "delegate"
+depends-top-level:
+- !private "BooleanLiteralType"
+- "NSObject"
+- "TopViewController"
+- !private "-"
+- "Int"
+- "SearchViewDataSource"
+- !private "UIScreen"
+- "NSIndexPath"
+- "UITableView"
+- !private "StringLiteralType"
+- "CGFloat"
+- !private "ComingSoonCell"
+- "UITableViewCell"
+- "UITableViewDataSource"
+- "UITableViewDelegate"
+depends-member:
+- !private ["Ps9AnyObject", "UIScreen"]
+- !private ["Ps9AnyObject", "bounds"]
+- ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "dequeueReusableCellWithIdentifier"]
+- ["Ps9AnyObject", "indexPathForPreferredFocusedViewInTableView"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "mainScreen"]
+- ["Ps9AnyObject", "numberOfSectionsInTableView"]
+- ["Ps9AnyObject", "scrollViewDidEndDecelerating"]
+- ["Ps9AnyObject", "scrollViewDidEndDragging"]
+- ["Ps9AnyObject", "scrollViewDidEndScrollingAnimation"]
+- ["Ps9AnyObject", "scrollViewDidEndZooming"]
+- ["Ps9AnyObject", "scrollViewDidScroll"]
+- ["Ps9AnyObject", "scrollViewDidScrollToTop"]
+- ["Ps9AnyObject", "scrollViewDidZoom"]
+- ["Ps9AnyObject", "scrollViewShouldScrollToTop"]
+- ["Ps9AnyObject", "scrollViewWillBeginDecelerating"]
+- ["Ps9AnyObject", "scrollViewWillBeginDragging"]
+- ["Ps9AnyObject", "scrollViewWillBeginZooming"]
+- ["Ps9AnyObject", "scrollViewWillEndDragging"]
+- ["Ps9AnyObject", "sectionIndexTitlesForTableView"]
+- ["Ps9AnyObject", "tableView"]
+- !private ["Ps9AnyObject", "userInteractionEnabled"]
+- ["Ps9AnyObject", "viewForZoomingInScrollView"]
+- ["Ps9AnyObject", ""]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- !private ["Ps11CVarArgType", "UIScreen"]
+- !private ["Ps11CVarArgType", "bounds"]
+- ["Ps11CVarArgType", "delegate"]
+- !private ["Ps11CVarArgType", "dequeueReusableCellWithIdentifier"]
+- ["Ps11CVarArgType", "indexPathForPreferredFocusedViewInTableView"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "mainScreen"]
+- ["Ps11CVarArgType", "numberOfSectionsInTableView"]
+- ["Ps11CVarArgType", "scrollViewDidEndDecelerating"]
+- ["Ps11CVarArgType", "scrollViewDidEndDragging"]
+- ["Ps11CVarArgType", "scrollViewDidEndScrollingAnimation"]
+- ["Ps11CVarArgType", "scrollViewDidEndZooming"]
+- ["Ps11CVarArgType", "scrollViewDidScroll"]
+- ["Ps11CVarArgType", "scrollViewDidScrollToTop"]
+- ["Ps11CVarArgType", "scrollViewDidZoom"]
+- ["Ps11CVarArgType", "scrollViewShouldScrollToTop"]
+- ["Ps11CVarArgType", "scrollViewWillBeginDecelerating"]
+- ["Ps11CVarArgType", "scrollViewWillBeginDragging"]
+- ["Ps11CVarArgType", "scrollViewWillBeginZooming"]
+- ["Ps11CVarArgType", "scrollViewWillEndDragging"]
+- ["Ps11CVarArgType", "sectionIndexTitlesForTableView"]
+- ["Ps11CVarArgType", "tableView"]
+- !private ["Ps11CVarArgType", "userInteractionEnabled"]
+- ["Ps11CVarArgType", "viewForZoomingInScrollView"]
+- ["Ps11CVarArgType", ""]
+- !private ["C11barbellyApp14ComingSoonCell", "userInteractionEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "UIScreen"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCellWithIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "indexPathForPreferredFocusedViewInTableView"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "mainScreen"]
+- ["Ps28CustomDebugStringConvertible", "numberOfSectionsInTableView"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidEndDecelerating"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidEndDragging"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidEndScrollingAnimation"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidEndZooming"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidScroll"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidScrollToTop"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidZoom"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewShouldScrollToTop"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewWillBeginDecelerating"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewWillBeginDragging"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewWillBeginZooming"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewWillEndDragging"]
+- ["Ps28CustomDebugStringConvertible", "sectionIndexTitlesForTableView"]
+- ["Ps28CustomDebugStringConvertible", "tableView"]
+- !private ["Ps28CustomDebugStringConvertible", "userInteractionEnabled"]
+- ["Ps28CustomDebugStringConvertible", "viewForZoomingInScrollView"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "UIScreen"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "dequeueReusableCellWithIdentifier"]
+- ["Ps23CustomStringConvertible", "indexPathForPreferredFocusedViewInTableView"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "mainScreen"]
+- ["Ps23CustomStringConvertible", "numberOfSectionsInTableView"]
+- ["Ps23CustomStringConvertible", "scrollViewDidEndDecelerating"]
+- ["Ps23CustomStringConvertible", "scrollViewDidEndDragging"]
+- ["Ps23CustomStringConvertible", "scrollViewDidEndScrollingAnimation"]
+- ["Ps23CustomStringConvertible", "scrollViewDidEndZooming"]
+- ["Ps23CustomStringConvertible", "scrollViewDidScroll"]
+- ["Ps23CustomStringConvertible", "scrollViewDidScrollToTop"]
+- ["Ps23CustomStringConvertible", "scrollViewDidZoom"]
+- ["Ps23CustomStringConvertible", "scrollViewShouldScrollToTop"]
+- ["Ps23CustomStringConvertible", "scrollViewWillBeginDecelerating"]
+- ["Ps23CustomStringConvertible", "scrollViewWillBeginDragging"]
+- ["Ps23CustomStringConvertible", "scrollViewWillBeginZooming"]
+- ["Ps23CustomStringConvertible", "scrollViewWillEndDragging"]
+- ["Ps23CustomStringConvertible", "sectionIndexTitlesForTableView"]
+- ["Ps23CustomStringConvertible", "tableView"]
+- !private ["Ps23CustomStringConvertible", "userInteractionEnabled"]
+- ["Ps23CustomStringConvertible", "viewForZoomingInScrollView"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "UIScreen"]
+- !private ["Ps9Equatable", "bounds"]
+- ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "dequeueReusableCellWithIdentifier"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "indexPathForPreferredFocusedViewInTableView"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "mainScreen"]
+- ["Ps9Equatable", "numberOfSectionsInTableView"]
+- ["Ps9Equatable", "scrollViewDidEndDecelerating"]
+- ["Ps9Equatable", "scrollViewDidEndDragging"]
+- ["Ps9Equatable", "scrollViewDidEndScrollingAnimation"]
+- ["Ps9Equatable", "scrollViewDidEndZooming"]
+- ["Ps9Equatable", "scrollViewDidScroll"]
+- ["Ps9Equatable", "scrollViewDidScrollToTop"]
+- ["Ps9Equatable", "scrollViewDidZoom"]
+- ["Ps9Equatable", "scrollViewShouldScrollToTop"]
+- ["Ps9Equatable", "scrollViewWillBeginDecelerating"]
+- ["Ps9Equatable", "scrollViewWillBeginDragging"]
+- ["Ps9Equatable", "scrollViewWillBeginZooming"]
+- ["Ps9Equatable", "scrollViewWillEndDragging"]
+- ["Ps9Equatable", "sectionIndexTitlesForTableView"]
+- !private ["Ps9Equatable", "size"]
+- ["Ps9Equatable", "tableView"]
+- !private ["Ps9Equatable", "userInteractionEnabled"]
+- ["Ps9Equatable", "viewForZoomingInScrollView"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "UIScreen"]
+- !private ["Ps8Hashable", "bounds"]
+- ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "dequeueReusableCellWithIdentifier"]
+- ["Ps8Hashable", "indexPathForPreferredFocusedViewInTableView"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "mainScreen"]
+- ["Ps8Hashable", "numberOfSectionsInTableView"]
+- ["Ps8Hashable", "scrollViewDidEndDecelerating"]
+- ["Ps8Hashable", "scrollViewDidEndDragging"]
+- ["Ps8Hashable", "scrollViewDidEndScrollingAnimation"]
+- ["Ps8Hashable", "scrollViewDidEndZooming"]
+- ["Ps8Hashable", "scrollViewDidScroll"]
+- ["Ps8Hashable", "scrollViewDidScrollToTop"]
+- ["Ps8Hashable", "scrollViewDidZoom"]
+- ["Ps8Hashable", "scrollViewShouldScrollToTop"]
+- ["Ps8Hashable", "scrollViewWillBeginDecelerating"]
+- ["Ps8Hashable", "scrollViewWillBeginDragging"]
+- ["Ps8Hashable", "scrollViewWillBeginZooming"]
+- ["Ps8Hashable", "scrollViewWillEndDragging"]
+- ["Ps8Hashable", "sectionIndexTitlesForTableView"]
+- ["Ps8Hashable", "tableView"]
+- !private ["Ps8Hashable", "userInteractionEnabled"]
+- ["Ps8Hashable", "viewForZoomingInScrollView"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo8NSCoding", "userInteractionEnabled"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "ComingSoonCell"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSIndexPath"]
+- ["CSo8NSObject", "TopViewController"]
+- !private ["CSo8NSObject", "UIScreen"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "UITableViewCell"]
+- !private ["CSo8NSObject", "bounds"]
+- ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "dequeueReusableCellWithIdentifier"]
+- ["CSo8NSObject", "indexPathForPreferredFocusedViewInTableView"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "mainScreen"]
+- ["CSo8NSObject", "numberOfSectionsInTableView"]
+- ["CSo8NSObject", "scrollViewDidEndDecelerating"]
+- ["CSo8NSObject", "scrollViewDidEndDragging"]
+- ["CSo8NSObject", "scrollViewDidEndScrollingAnimation"]
+- ["CSo8NSObject", "scrollViewDidEndZooming"]
+- ["CSo8NSObject", "scrollViewDidScroll"]
+- ["CSo8NSObject", "scrollViewDidScrollToTop"]
+- ["CSo8NSObject", "scrollViewDidZoom"]
+- ["CSo8NSObject", "scrollViewShouldScrollToTop"]
+- ["CSo8NSObject", "scrollViewWillBeginDecelerating"]
+- ["CSo8NSObject", "scrollViewWillBeginDragging"]
+- ["CSo8NSObject", "scrollViewWillBeginZooming"]
+- ["CSo8NSObject", "scrollViewWillEndDragging"]
+- ["CSo8NSObject", "sectionIndexTitlesForTableView"]
+- ["CSo8NSObject", "tableView"]
+- !private ["CSo8NSObject", "userInteractionEnabled"]
+- ["CSo8NSObject", "viewForZoomingInScrollView"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "UIScreen"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithIdentifier"]
+- ["PSo16NSObjectProtocol", "indexPathForPreferredFocusedViewInTableView"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "mainScreen"]
+- ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndDecelerating"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndDragging"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndScrollingAnimation"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndZooming"]
+- ["PSo16NSObjectProtocol", "scrollViewDidScroll"]
+- ["PSo16NSObjectProtocol", "scrollViewDidScrollToTop"]
+- ["PSo16NSObjectProtocol", "scrollViewDidZoom"]
+- ["PSo16NSObjectProtocol", "scrollViewShouldScrollToTop"]
+- ["PSo16NSObjectProtocol", "scrollViewWillBeginDecelerating"]
+- ["PSo16NSObjectProtocol", "scrollViewWillBeginDragging"]
+- ["PSo16NSObjectProtocol", "scrollViewWillBeginZooming"]
+- ["PSo16NSObjectProtocol", "scrollViewWillEndDragging"]
+- ["PSo16NSObjectProtocol", "sectionIndexTitlesForTableView"]
+- ["PSo16NSObjectProtocol", "tableView"]
+- !private ["PSo16NSObjectProtocol", "userInteractionEnabled"]
+- ["PSo16NSObjectProtocol", "viewForZoomingInScrollView"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- ["C11barbellyApp20SearchViewDataSource", "CGFloat"]
+- !private ["C11barbellyApp20SearchViewDataSource", "ComingSoonCell"]
+- ["C11barbellyApp20SearchViewDataSource", "Int"]
+- ["C11barbellyApp20SearchViewDataSource", "NSIndexPath"]
+- ["C11barbellyApp20SearchViewDataSource", "TopViewController"]
+- !private ["C11barbellyApp20SearchViewDataSource", "UIScreen"]
+- ["C11barbellyApp20SearchViewDataSource", "UITableView"]
+- ["C11barbellyApp20SearchViewDataSource", "UITableViewCell"]
+- ["C11barbellyApp20SearchViewDataSource", "deinit"]
+- ["C11barbellyApp20SearchViewDataSource", "delegate"]
+- ["C11barbellyApp20SearchViewDataSource", "indexPathForPreferredFocusedViewInTableView"]
+- ["C11barbellyApp20SearchViewDataSource", "init"]
+- ["C11barbellyApp20SearchViewDataSource", "numberOfSectionsInTableView"]
+- ["C11barbellyApp20SearchViewDataSource", "scrollViewDidEndDecelerating"]
+- ["C11barbellyApp20SearchViewDataSource", "scrollViewDidEndDragging"]
+- ["C11barbellyApp20SearchViewDataSource", "scrollViewDidEndScrollingAnimation"]
+- ["C11barbellyApp20SearchViewDataSource", "scrollViewDidEndZooming"]
+- ["C11barbellyApp20SearchViewDataSource", "scrollViewDidScroll"]
+- ["C11barbellyApp20SearchViewDataSource", "scrollViewDidScrollToTop"]
+- ["C11barbellyApp20SearchViewDataSource", "scrollViewDidZoom"]
+- ["C11barbellyApp20SearchViewDataSource", "scrollViewShouldScrollToTop"]
+- ["C11barbellyApp20SearchViewDataSource", "scrollViewWillBeginDecelerating"]
+- ["C11barbellyApp20SearchViewDataSource", "scrollViewWillBeginDragging"]
+- ["C11barbellyApp20SearchViewDataSource", "scrollViewWillBeginZooming"]
+- ["C11barbellyApp20SearchViewDataSource", "scrollViewWillEndDragging"]
+- ["C11barbellyApp20SearchViewDataSource", "sectionIndexTitlesForTableView"]
+- ["C11barbellyApp20SearchViewDataSource", "tableView"]
+- ["C11barbellyApp20SearchViewDataSource", "viewForZoomingInScrollView"]
+- !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo29UIAccessibilityIdentification", "userInteractionEnabled"]
+- !private ["PSo12UIAppearance", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo12UIAppearance", "userInteractionEnabled"]
+- !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "userInteractionEnabled"]
+- !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo17UICoordinateSpace", "userInteractionEnabled"]
+- !private ["PSo13UIDynamicItem", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo13UIDynamicItem", "userInteractionEnabled"]
+- !private ["PSo18UIFocusEnvironment", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "userInteractionEnabled"]
+- !private ["PSo27UIGestureRecognizerDelegate", "userInteractionEnabled"]
+- !private ["CSo11UIResponder", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo11UIResponder", "userInteractionEnabled"]
+- !private ["CSo8UIScreen", "bounds"]
+- !private ["CSo8UIScreen", "mainScreen"]
+- !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo20UIScrollViewDelegate", "UIScreen"]
+- ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
+- ["PSo20UIScrollViewDelegate", "numberOfSectionsInTableView"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndDecelerating"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndDragging"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndScrollingAnimation"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndZooming"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidScroll"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidScrollToTop"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidZoom"]
+- ["PSo20UIScrollViewDelegate", "scrollViewShouldScrollToTop"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillBeginDecelerating"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillBeginDragging"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillBeginZooming"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillEndDragging"]
+- ["PSo20UIScrollViewDelegate", "sectionIndexTitlesForTableView"]
+- ["PSo20UIScrollViewDelegate", "tableView"]
+- ["PSo20UIScrollViewDelegate", "viewForZoomingInScrollView"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["CSo11UITableView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo15UITableViewCell", "userInteractionEnabled"]
+- !private ["PSo21UITableViewDataSource", "UIScreen"]
+- ["PSo21UITableViewDataSource", "indexPathForPreferredFocusedViewInTableView"]
+- ["PSo21UITableViewDataSource", "numberOfSectionsInTableView"]
+- ["PSo21UITableViewDataSource", "scrollViewDidEndDecelerating"]
+- ["PSo21UITableViewDataSource", "scrollViewDidEndDragging"]
+- ["PSo21UITableViewDataSource", "scrollViewDidEndScrollingAnimation"]
+- ["PSo21UITableViewDataSource", "scrollViewDidEndZooming"]
+- ["PSo21UITableViewDataSource", "scrollViewDidScroll"]
+- ["PSo21UITableViewDataSource", "scrollViewDidScrollToTop"]
+- ["PSo21UITableViewDataSource", "scrollViewDidZoom"]
+- ["PSo21UITableViewDataSource", "scrollViewShouldScrollToTop"]
+- ["PSo21UITableViewDataSource", "scrollViewWillBeginDecelerating"]
+- ["PSo21UITableViewDataSource", "scrollViewWillBeginDragging"]
+- ["PSo21UITableViewDataSource", "scrollViewWillBeginZooming"]
+- ["PSo21UITableViewDataSource", "scrollViewWillEndDragging"]
+- ["PSo21UITableViewDataSource", "sectionIndexTitlesForTableView"]
+- ["PSo21UITableViewDataSource", "tableView"]
+- ["PSo21UITableViewDataSource", "viewForZoomingInScrollView"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["PSo19UITableViewDelegate", "UIScreen"]
+- ["PSo19UITableViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
+- ["PSo19UITableViewDelegate", "numberOfSectionsInTableView"]
+- ["PSo19UITableViewDelegate", "scrollViewDidEndDecelerating"]
+- ["PSo19UITableViewDelegate", "scrollViewDidEndDragging"]
+- ["PSo19UITableViewDelegate", "scrollViewDidEndScrollingAnimation"]
+- ["PSo19UITableViewDelegate", "scrollViewDidEndZooming"]
+- ["PSo19UITableViewDelegate", "scrollViewDidScroll"]
+- ["PSo19UITableViewDelegate", "scrollViewDidScrollToTop"]
+- ["PSo19UITableViewDelegate", "scrollViewDidZoom"]
+- ["PSo19UITableViewDelegate", "scrollViewShouldScrollToTop"]
+- ["PSo19UITableViewDelegate", "scrollViewWillBeginDecelerating"]
+- ["PSo19UITableViewDelegate", "scrollViewWillBeginDragging"]
+- ["PSo19UITableViewDelegate", "scrollViewWillBeginZooming"]
+- ["PSo19UITableViewDelegate", "scrollViewWillEndDragging"]
+- ["PSo19UITableViewDelegate", "sectionIndexTitlesForTableView"]
+- ["PSo19UITableViewDelegate", "tableView"]
+- ["PSo19UITableViewDelegate", "viewForZoomingInScrollView"]
+- ["PSo19UITableViewDelegate", ""]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "mainScreen"]
+- !private ["PSo18UITraitEnvironment", "userInteractionEnabled"]
+- !private ["CSo6UIView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo6UIView", "userInteractionEnabled"]
+- !private ["Ps12_Reflectable", "dequeueReusableCellWithIdentifier"]
+- !private ["Ps12_Reflectable", "height"]
+- !private ["Ps12_Reflectable", "size"]
+- !private ["Ps12_Reflectable", "userInteractionEnabled"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- "Ps11CVarArgType"
+- !private "C11barbellyApp14ComingSoonCell"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- "C11barbellyApp20SearchViewDataSource"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo11UIResponder"
+- !private "CSo8UIScreen"
+- !private "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- !private "CSo11UITableView"
+- !private "CSo15UITableViewCell"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/barbellyApp/barbellyApp-Bridging-Header.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/SubClassHandler.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBUser+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRelation+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBQuery+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBObject+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBFacebookUtils+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBSetOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRemoveOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRelationOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBIncrementOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBDeleteOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBAddUniqueOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBAddOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NSDataBase64Encode.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBURLConnection.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBTwitterLoginView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAServiceTicket.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAHMAC_SHA1SignatureProvider.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOASignatureProviding.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAToken.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAMutableURLRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOADataFetcher.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOAConsumer.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/sha1.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/hmac.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/Base64Transcoder.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NSURLBase.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NSStringURLEncoding.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBOARequestParameter.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NSMutableURLRequestParameters.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRichPushView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBCloseImageView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBObject+Subclass.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBGoogleUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBGoogleUtils+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBFacebookUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBReachability.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBSubclassing.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBScriptService.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBScript.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBTwitterUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBFile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBUser.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBError.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBACL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRole.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRelation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBGeoPoint.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBQuery.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBAnonymousUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBPush.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBObject.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBInstallation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBAnalytics.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMB.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMBRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Headers/NCMB-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/NCMB/NCMB.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKFontAwesome.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/FontAwesomeKit/FontAwesomeKit.framework/Headers/FAKIcon.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/FontAwesomeKit/FontAwesomeKit.framework/Headers/FontAwesomeKit-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphonesimulator/FontAwesomeKit/FontAwesomeKit.framework/Modules/module.modulemap"
+interface-hash: "5d4cf7e6ec2709e823439e527ffc3f47"

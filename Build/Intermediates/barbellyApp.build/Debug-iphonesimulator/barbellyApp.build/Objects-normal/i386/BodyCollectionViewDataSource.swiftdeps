@@ -1,0 +1,564 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BodyCollectionViewDataSource"
+provides-nominal:
+- "C11barbellyApp28BodyCollectionViewDataSource"
+provides-member:
+- ["C11barbellyApp28BodyCollectionViewDataSource", ""]
+provides-dynamic-lookup:
+- "numberOfSectionsInCollectionView"
+- "collectionView"
+- "collectionView"
+- "collectionView"
+- "delegate"
+- "backCell"
+- "frontCell"
+- "legsCell"
+depends-top-level:
+- "LegsBodyCell"
+- "UICollectionViewCell"
+- "NSObject"
+- "NSIndexPath"
+- !private "~="
+- "UICollectionView"
+- !private "StringLiteralType"
+- "BackBodyCell"
+- "Int"
+- "UICollectionViewDataSource"
+- "InputViewController"
+- "UICollectionViewDelegate"
+- "BodyCollectionViewDataSource"
+- "WorkoutApiModel"
+- "FrontBodyCell"
+depends-member:
+- !private ["Ps9AnyObject", "UICollectionViewCell"]
+- ["Ps9AnyObject", "apiModel"]
+- ["Ps9AnyObject", "backCell"]
+- ["Ps9AnyObject", "collectionView"]
+- ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "dequeueReusableCellWithReuseIdentifier"]
+- ["Ps9AnyObject", "frontCell"]
+- ["Ps9AnyObject", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "item"]
+- ["Ps9AnyObject", "legsCell"]
+- ["Ps9AnyObject", "numberOfSectionsInCollectionView"]
+- ["Ps9AnyObject", "scrollViewDidEndDecelerating"]
+- ["Ps9AnyObject", "scrollViewDidEndDragging"]
+- ["Ps9AnyObject", "scrollViewDidEndScrollingAnimation"]
+- ["Ps9AnyObject", "scrollViewDidEndZooming"]
+- ["Ps9AnyObject", "scrollViewDidScroll"]
+- ["Ps9AnyObject", "scrollViewDidScrollToTop"]
+- ["Ps9AnyObject", "scrollViewDidZoom"]
+- ["Ps9AnyObject", "scrollViewShouldScrollToTop"]
+- ["Ps9AnyObject", "scrollViewWillBeginDecelerating"]
+- ["Ps9AnyObject", "scrollViewWillBeginDragging"]
+- ["Ps9AnyObject", "scrollViewWillBeginZooming"]
+- ["Ps9AnyObject", "scrollViewWillEndDragging"]
+- ["Ps9AnyObject", "viewForZoomingInScrollView"]
+- ["Ps9AnyObject", ""]
+- !private ["C11barbellyApp12BackBodyCell", "apiModel"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "BackBodyCell"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "FrontBodyCell"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "InputViewController"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "Int"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "LegsBodyCell"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "NSIndexPath"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "UICollectionView"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "UICollectionViewCell"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "WorkoutApiModel"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "apiModel"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "backCell"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "collectionView"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "deinit"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "delegate"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "frontCell"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "init"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "legsCell"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "numberOfSectionsInCollectionView"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "scrollViewDidEndDecelerating"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "scrollViewDidEndDragging"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "scrollViewDidEndScrollingAnimation"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "scrollViewDidEndZooming"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "scrollViewDidScroll"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "scrollViewDidScrollToTop"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "scrollViewDidZoom"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "scrollViewShouldScrollToTop"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "scrollViewWillBeginDecelerating"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "scrollViewWillBeginDragging"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "scrollViewWillBeginZooming"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "scrollViewWillEndDragging"]
+- ["C11barbellyApp28BodyCollectionViewDataSource", "viewForZoomingInScrollView"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "UICollectionViewCell"]
+- ["Ps11CVarArgType", "apiModel"]
+- ["Ps11CVarArgType", "backCell"]
+- ["Ps11CVarArgType", "collectionView"]
+- ["Ps11CVarArgType", "delegate"]
+- !private ["Ps11CVarArgType", "dequeueReusableCellWithReuseIdentifier"]
+- ["Ps11CVarArgType", "frontCell"]
+- ["Ps11CVarArgType", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "item"]
+- ["Ps11CVarArgType", "legsCell"]
+- ["Ps11CVarArgType", "numberOfSectionsInCollectionView"]
+- ["Ps11CVarArgType", "scrollViewDidEndDecelerating"]
+- ["Ps11CVarArgType", "scrollViewDidEndDragging"]
+- ["Ps11CVarArgType", "scrollViewDidEndScrollingAnimation"]
+- ["Ps11CVarArgType", "scrollViewDidEndZooming"]
+- ["Ps11CVarArgType", "scrollViewDidScroll"]
+- ["Ps11CVarArgType", "scrollViewDidScrollToTop"]
+- ["Ps11CVarArgType", "scrollViewDidZoom"]
+- ["Ps11CVarArgType", "scrollViewShouldScrollToTop"]
+- ["Ps11CVarArgType", "scrollViewWillBeginDecelerating"]
+- ["Ps11CVarArgType", "scrollViewWillBeginDragging"]
+- ["Ps11CVarArgType", "scrollViewWillBeginZooming"]
+- ["Ps11CVarArgType", "scrollViewWillEndDragging"]
+- ["Ps11CVarArgType", "viewForZoomingInScrollView"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "UICollectionViewCell"]
+- ["Ps28CustomDebugStringConvertible", "apiModel"]
+- ["Ps28CustomDebugStringConvertible", "backCell"]
+- ["Ps28CustomDebugStringConvertible", "collectionView"]
+- ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCellWithReuseIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "frontCell"]
+- ["Ps28CustomDebugStringConvertible", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "item"]
+- ["Ps28CustomDebugStringConvertible", "legsCell"]
+- ["Ps28CustomDebugStringConvertible", "numberOfSectionsInCollectionView"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidEndDecelerating"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidEndDragging"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidEndScrollingAnimation"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidEndZooming"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidScroll"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidScrollToTop"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidZoom"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewShouldScrollToTop"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewWillBeginDecelerating"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewWillBeginDragging"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewWillBeginZooming"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewWillEndDragging"]
+- ["Ps28CustomDebugStringConvertible", "viewForZoomingInScrollView"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "UICollectionViewCell"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "apiModel"]
+- ["Ps23CustomStringConvertible", "backCell"]
+- ["Ps23CustomStringConvertible", "collectionView"]
+- ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "dequeueReusableCellWithReuseIdentifier"]
+- ["Ps23CustomStringConvertible", "frontCell"]
+- ["Ps23CustomStringConvertible", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "item"]
+- ["Ps23CustomStringConvertible", "legsCell"]
+- ["Ps23CustomStringConvertible", "numberOfSectionsInCollectionView"]
+- ["Ps23CustomStringConvertible", "scrollViewDidEndDecelerating"]
+- ["Ps23CustomStringConvertible", "scrollViewDidEndDragging"]
+- ["Ps23CustomStringConvertible", "scrollViewDidEndScrollingAnimation"]
+- ["Ps23CustomStringConvertible", "scrollViewDidEndZooming"]
+- ["Ps23CustomStringConvertible", "scrollViewDidScroll"]
+- ["Ps23CustomStringConvertible", "scrollViewDidScrollToTop"]
+- ["Ps23CustomStringConvertible", "scrollViewDidZoom"]
+- ["Ps23CustomStringConvertible", "scrollViewShouldScrollToTop"]
+- ["Ps23CustomStringConvertible", "scrollViewWillBeginDecelerating"]
+- ["Ps23CustomStringConvertible", "scrollViewWillBeginDragging"]
+- ["Ps23CustomStringConvertible", "scrollViewWillBeginZooming"]
+- ["Ps23CustomStringConvertible", "scrollViewWillEndDragging"]
+- ["Ps23CustomStringConvertible", "viewForZoomingInScrollView"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "UICollectionViewCell"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "apiModel"]
+- ["Ps9Equatable", "backCell"]
+- ["Ps9Equatable", "collectionView"]
+- ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "dequeueReusableCellWithReuseIdentifier"]
+- ["Ps9Equatable", "frontCell"]
+- ["Ps9Equatable", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "item"]
+- ["Ps9Equatable", "legsCell"]
+- ["Ps9Equatable", "numberOfSectionsInCollectionView"]
+- ["Ps9Equatable", "scrollViewDidEndDecelerating"]
+- ["Ps9Equatable", "scrollViewDidEndDragging"]
+- ["Ps9Equatable", "scrollViewDidEndScrollingAnimation"]
+- ["Ps9Equatable", "scrollViewDidEndZooming"]
+- ["Ps9Equatable", "scrollViewDidScroll"]
+- ["Ps9Equatable", "scrollViewDidScrollToTop"]
+- ["Ps9Equatable", "scrollViewDidZoom"]
+- ["Ps9Equatable", "scrollViewShouldScrollToTop"]
+- ["Ps9Equatable", "scrollViewWillBeginDecelerating"]
+- ["Ps9Equatable", "scrollViewWillBeginDragging"]
+- ["Ps9Equatable", "scrollViewWillBeginZooming"]
+- ["Ps9Equatable", "scrollViewWillEndDragging"]
+- ["Ps9Equatable", "viewForZoomingInScrollView"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["C11barbellyApp13FrontBodyCell", "apiModel"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "UICollectionViewCell"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "apiModel"]
+- ["Ps8Hashable", "backCell"]
+- ["Ps8Hashable", "collectionView"]
+- ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "dequeueReusableCellWithReuseIdentifier"]
+- ["Ps8Hashable", "frontCell"]
+- ["Ps8Hashable", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "item"]
+- ["Ps8Hashable", "legsCell"]
+- ["Ps8Hashable", "numberOfSectionsInCollectionView"]
+- ["Ps8Hashable", "scrollViewDidEndDecelerating"]
+- ["Ps8Hashable", "scrollViewDidEndDragging"]
+- ["Ps8Hashable", "scrollViewDidEndScrollingAnimation"]
+- ["Ps8Hashable", "scrollViewDidEndZooming"]
+- ["Ps8Hashable", "scrollViewDidScroll"]
+- ["Ps8Hashable", "scrollViewDidScrollToTop"]
+- ["Ps8Hashable", "scrollViewDidZoom"]
+- ["Ps8Hashable", "scrollViewShouldScrollToTop"]
+- ["Ps8Hashable", "scrollViewWillBeginDecelerating"]
+- ["Ps8Hashable", "scrollViewWillBeginDragging"]
+- ["Ps8Hashable", "scrollViewWillBeginZooming"]
+- ["Ps8Hashable", "scrollViewWillEndDragging"]
+- ["Ps8Hashable", "viewForZoomingInScrollView"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["C11barbellyApp12LegsBodyCell", "apiModel"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSo8NSCoding", "apiModel"]
+- !private ["PSo8NSCoding", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "item"]
+- !private ["PSo9NSCopying", "item"]
+- !private ["CSo11NSIndexPath", "item"]
+- !private ["CSo8NSNumber", "deinit"]
+- ["CSo8NSObject", "BackBodyCell"]
+- ["CSo8NSObject", "FrontBodyCell"]
+- ["CSo8NSObject", "InputViewController"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "LegsBodyCell"]
+- ["CSo8NSObject", "NSIndexPath"]
+- ["CSo8NSObject", "UICollectionView"]
+- ["CSo8NSObject", "UICollectionViewCell"]
+- ["CSo8NSObject", "WorkoutApiModel"]
+- ["CSo8NSObject", "apiModel"]
+- ["CSo8NSObject", "backCell"]
+- ["CSo8NSObject", "collectionView"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "dequeueReusableCellWithReuseIdentifier"]
+- ["CSo8NSObject", "frontCell"]
+- ["CSo8NSObject", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "item"]
+- ["CSo8NSObject", "legsCell"]
+- ["CSo8NSObject", "numberOfSectionsInCollectionView"]
+- ["CSo8NSObject", "scrollViewDidEndDecelerating"]
+- ["CSo8NSObject", "scrollViewDidEndDragging"]
+- ["CSo8NSObject", "scrollViewDidEndScrollingAnimation"]
+- ["CSo8NSObject", "scrollViewDidEndZooming"]
+- ["CSo8NSObject", "scrollViewDidScroll"]
+- ["CSo8NSObject", "scrollViewDidScrollToTop"]
+- ["CSo8NSObject", "scrollViewDidZoom"]
+- ["CSo8NSObject", "scrollViewShouldScrollToTop"]
+- ["CSo8NSObject", "scrollViewWillBeginDecelerating"]
+- ["CSo8NSObject", "scrollViewWillBeginDragging"]
+- ["CSo8NSObject", "scrollViewWillBeginZooming"]
+- ["CSo8NSObject", "scrollViewWillEndDragging"]
+- ["CSo8NSObject", "viewForZoomingInScrollView"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "UICollectionViewCell"]
+- ["PSo16NSObjectProtocol", "apiModel"]
+- ["PSo16NSObjectProtocol", "backCell"]
+- ["PSo16NSObjectProtocol", "collectionView"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithReuseIdentifier"]
+- ["PSo16NSObjectProtocol", "frontCell"]
+- ["PSo16NSObjectProtocol", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "item"]
+- ["PSo16NSObjectProtocol", "legsCell"]
+- ["PSo16NSObjectProtocol", "numberOfSectionsInCollectionView"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndDecelerating"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndDragging"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndScrollingAnimation"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndZooming"]
+- ["PSo16NSObjectProtocol", "scrollViewDidScroll"]
+- ["PSo16NSObjectProtocol", "scrollViewDidScrollToTop"]
+- ["PSo16NSObjectProtocol", "scrollViewDidZoom"]
+- ["PSo16NSObjectProtocol", "scrollViewShouldScrollToTop"]
+- ["PSo16NSObjectProtocol", "scrollViewWillBeginDecelerating"]
+- ["PSo16NSObjectProtocol", "scrollViewWillBeginDragging"]
+- ["PSo16NSObjectProtocol", "scrollViewWillBeginZooming"]
+- ["PSo16NSObjectProtocol", "scrollViewWillEndDragging"]
+- ["PSo16NSObjectProtocol", "viewForZoomingInScrollView"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "item"]
+- !private ["CSo7NSValue", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["PSo29UIAccessibilityIdentification", "apiModel"]
+- !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo12UIAppearance", "apiModel"]
+- !private ["PSo12UIAppearance", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo21UIAppearanceContainer", "apiModel"]
+- !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["CSo24UICollectionReusableView", "apiModel"]
+- !private ["CSo24UICollectionReusableView", "init"]
+- !private ["CSo16UICollectionView", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["CSo20UICollectionViewCell", "apiModel"]
+- !private ["CSo20UICollectionViewCell", "deinit"]
+- !private ["CSo20UICollectionViewCell", "init"]
+- !private ["PSo26UICollectionViewDataSource", "UICollectionViewCell"]
+- !private ["PSo26UICollectionViewDataSource", "apiModel"]
+- !private ["PSo26UICollectionViewDataSource", "backCell"]
+- ["PSo26UICollectionViewDataSource", "collectionView"]
+- !private ["PSo26UICollectionViewDataSource", "frontCell"]
+- ["PSo26UICollectionViewDataSource", "indexPathForPreferredFocusedViewInCollectionView"]
+- !private ["PSo26UICollectionViewDataSource", "legsCell"]
+- ["PSo26UICollectionViewDataSource", "numberOfSectionsInCollectionView"]
+- ["PSo26UICollectionViewDataSource", "scrollViewDidEndDecelerating"]
+- ["PSo26UICollectionViewDataSource", "scrollViewDidEndDragging"]
+- ["PSo26UICollectionViewDataSource", "scrollViewDidEndScrollingAnimation"]
+- ["PSo26UICollectionViewDataSource", "scrollViewDidEndZooming"]
+- ["PSo26UICollectionViewDataSource", "scrollViewDidScroll"]
+- ["PSo26UICollectionViewDataSource", "scrollViewDidScrollToTop"]
+- ["PSo26UICollectionViewDataSource", "scrollViewDidZoom"]
+- ["PSo26UICollectionViewDataSource", "scrollViewShouldScrollToTop"]
+- ["PSo26UICollectionViewDataSource", "scrollViewWillBeginDecelerating"]
+- ["PSo26UICollectionViewDataSource", "scrollViewWillBeginDragging"]
+- ["PSo26UICollectionViewDataSource", "scrollViewWillBeginZooming"]
+- ["PSo26UICollectionViewDataSource", "scrollViewWillEndDragging"]
+- ["PSo26UICollectionViewDataSource", "viewForZoomingInScrollView"]
+- ["PSo26UICollectionViewDataSource", ""]
+- !private ["PSo24UICollectionViewDelegate", "UICollectionViewCell"]
+- !private ["PSo24UICollectionViewDelegate", "apiModel"]
+- !private ["PSo24UICollectionViewDelegate", "backCell"]
+- ["PSo24UICollectionViewDelegate", "collectionView"]
+- !private ["PSo24UICollectionViewDelegate", "frontCell"]
+- ["PSo24UICollectionViewDelegate", "indexPathForPreferredFocusedViewInCollectionView"]
+- !private ["PSo24UICollectionViewDelegate", "legsCell"]
+- ["PSo24UICollectionViewDelegate", "numberOfSectionsInCollectionView"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidEndDecelerating"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidEndDragging"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidEndScrollingAnimation"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidEndZooming"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidScroll"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidScrollToTop"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidZoom"]
+- ["PSo24UICollectionViewDelegate", "scrollViewShouldScrollToTop"]
+- ["PSo24UICollectionViewDelegate", "scrollViewWillBeginDecelerating"]
+- ["PSo24UICollectionViewDelegate", "scrollViewWillBeginDragging"]
+- ["PSo24UICollectionViewDelegate", "scrollViewWillBeginZooming"]
+- ["PSo24UICollectionViewDelegate", "scrollViewWillEndDragging"]
+- ["PSo24UICollectionViewDelegate", "viewForZoomingInScrollView"]
+- ["PSo24UICollectionViewDelegate", ""]
+- !private ["PSo17UICoordinateSpace", "apiModel"]
+- !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo13UIDynamicItem", "apiModel"]
+- !private ["PSo13UIDynamicItem", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo18UIFocusEnvironment", "apiModel"]
+- !private ["PSo18UIFocusEnvironment", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["CSo11UIResponder", "apiModel"]
+- !private ["CSo11UIResponder", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo12UIScrollView", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo20UIScrollViewDelegate", "UICollectionViewCell"]
+- !private ["PSo20UIScrollViewDelegate", "apiModel"]
+- !private ["PSo20UIScrollViewDelegate", "backCell"]
+- ["PSo20UIScrollViewDelegate", "collectionView"]
+- !private ["PSo20UIScrollViewDelegate", "frontCell"]
+- ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedViewInCollectionView"]
+- !private ["PSo20UIScrollViewDelegate", "legsCell"]
+- ["PSo20UIScrollViewDelegate", "numberOfSectionsInCollectionView"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndDecelerating"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndDragging"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndScrollingAnimation"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndZooming"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidScroll"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidScrollToTop"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidZoom"]
+- ["PSo20UIScrollViewDelegate", "scrollViewShouldScrollToTop"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillBeginDecelerating"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillBeginDragging"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillBeginZooming"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillEndDragging"]
+- ["PSo20UIScrollViewDelegate", "viewForZoomingInScrollView"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["PSo18UITraitEnvironment", "apiModel"]
+- !private ["PSo18UITraitEnvironment", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["CSo6UIView", "apiModel"]
+- !private ["CSo6UIView", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["CSo6UIView", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "apiModel"]
+- !private ["Ps12_Reflectable", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C11barbellyApp12BackBodyCell"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- "C11barbellyApp28BodyCollectionViewDataSource"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- !private "C11barbellyApp13FrontBodyCell"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "C11barbellyApp12LegsBodyCell"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo11NSIndexPath"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo7NSValue"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo24UICollectionReusableView"
+- !private "CSo16UICollectionView"
+- !private "CSo20UICollectionViewCell"
+- "PSo26UICollectionViewDataSource"
+- "PSo24UICollectionViewDelegate"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/barbellyApp/barbellyApp-Bridging-Header.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMB.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBAnalytics.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBInstallation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBObject.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBPush.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBAnonymousUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBQuery.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBGeoPoint.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRelation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRole.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBACL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBError.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBUser.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBFile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBTwitterUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBScript.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBScriptService.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBSubclassing.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/NCMB/NCMBReachability.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FontAwesomeKit.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKIcon.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKFontAwesome.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKFoundationIcons.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKZocial.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Pods/Headers/Public/FontAwesomeKit/FAKIonIcons.h"
+interface-hash: "a0df8a1b79bf81dc74fe2c5945b4e3e8"

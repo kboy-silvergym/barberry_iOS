@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsCell" rowHeight="94" id="D2p-PF-8HB" customClass="NewsCell" customModule="barbellyApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="319" height="94"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="D2p-PF-8HB" id="Mz7-V6-Qtw">
+                <rect key="frame" x="0.0" y="0.0" width="319" height="93.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XS0-b5-iZp">
+                        <rect key="frame" x="8" y="8" width="303" height="85.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5Y-Of-HWv">
+                                <rect key="frame" x="66" y="30" width="229" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="barberry_icon320" translatesAutoresizingMaskIntoConstraints="NO" id="AdK-3c-wZ2">
+                                <rect key="frame" x="8" y="8" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="uEi-mN-sQY"/>
+                                    <constraint firstAttribute="height" constant="50" id="znd-dC-VKb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zT6-gb-eQw">
+                                <rect key="frame" x="66" y="8" width="229" height="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" red="0.16862745098039217" green="0.16862745098039217" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8c-eK-ofq">
+                                <rect key="frame" x="66" y="64" width="23.5" height="13.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AdK-3c-wZ2" firstAttribute="top" secondItem="XS0-b5-iZp" secondAttribute="top" constant="8" id="3BL-GO-D5T"/>
+                            <constraint firstItem="H8c-eK-ofq" firstAttribute="leading" secondItem="h5Y-Of-HWv" secondAttribute="leading" id="DqY-m3-rmg"/>
+                            <constraint firstAttribute="trailing" secondItem="zT6-gb-eQw" secondAttribute="trailing" constant="8" id="QoH-Ul-D7X"/>
+                            <constraint firstAttribute="trailing" secondItem="h5Y-Of-HWv" secondAttribute="trailing" constant="8" id="YqD-S1-yGe"/>
+                            <constraint firstAttribute="bottom" secondItem="H8c-eK-ofq" secondAttribute="bottom" constant="8" id="aiv-Ee-WdG"/>
+                            <constraint firstItem="AdK-3c-wZ2" firstAttribute="leading" secondItem="XS0-b5-iZp" secondAttribute="leading" constant="8" id="cpN-Mg-h0n"/>
+                            <constraint firstItem="zT6-gb-eQw" firstAttribute="leading" secondItem="AdK-3c-wZ2" secondAttribute="trailing" constant="8" id="e2P-KQ-zER"/>
+                            <constraint firstItem="h5Y-Of-HWv" firstAttribute="leading" secondItem="AdK-3c-wZ2" secondAttribute="trailing" constant="8" id="l5P-fj-igT"/>
+                            <constraint firstItem="zT6-gb-eQw" firstAttribute="top" secondItem="XS0-b5-iZp" secondAttribute="top" constant="8" id="srv-0B-raY"/>
+                            <constraint firstItem="h5Y-Of-HWv" firstAttribute="top" secondItem="zT6-gb-eQw" secondAttribute="bottom" constant="4" id="v6k-IT-vOY"/>
+                            <constraint firstItem="H8c-eK-ofq" firstAttribute="top" relation="greaterThanOrEqual" secondItem="h5Y-Of-HWv" secondAttribute="bottom" constant="8" id="zE6-07-GoF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XS0-b5-iZp" firstAttribute="leading" secondItem="Mz7-V6-Qtw" secondAttribute="leading" constant="8" id="IY1-yP-ydy"/>
+                    <constraint firstItem="XS0-b5-iZp" firstAttribute="top" secondItem="Mz7-V6-Qtw" secondAttribute="top" constant="8" id="XmO-g4-9Oh"/>
+                    <constraint firstAttribute="trailing" secondItem="XS0-b5-iZp" secondAttribute="trailing" constant="8" id="YFM-VB-cXu"/>
+                    <constraint firstAttribute="bottom" secondItem="XS0-b5-iZp" secondAttribute="bottom" id="g5P-aO-8zf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <connections>
+                <outlet property="date" destination="H8c-eK-ofq" id="1dz-Av-Oua"/>
+                <outlet property="name" destination="zT6-gb-eQw" id="5qo-Y4-CHL"/>
+                <outlet property="newsText" destination="h5Y-Of-HWv" id="cDt-am-oYe"/>
+                <outlet property="userImage" destination="AdK-3c-wZ2" id="xXN-tP-xSm"/>
+            </connections>
+            <point key="canvasLocation" x="244.5" y="276"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="barberry_icon320" width="160" height="147"/>
+    </resources>
+</document>

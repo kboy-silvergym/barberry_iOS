@@ -1,0 +1,6 @@
+framework module Pods_BarberryUITests {
+  umbrella header "Pods-BarberryUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,861 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MultiSetTableDataSource"
+provides-nominal:
+- "C11barbellyApp23MultiSetTableDataSource"
+provides-member:
+- ["C11barbellyApp23MultiSetTableDataSource", ""]
+provides-dynamic-lookup:
+- "multiFlg"
+- "tableView"
+- "tableView"
+- "tableView"
+- "numberOfSectionsInTableView"
+depends-top-level:
+- "NSIndexPath"
+- !private "!"
+- !private "WorkoutLogCell"
+- "MultiSetTableDataSource"
+- "WorkoutModel"
+- "UITableViewDelegate"
+- "UITableView"
+- "UITableViewDataSource"
+- "BooleanLiteralType"
+- !private "!="
+- "Int"
+- !private "+"
+- !private "=="
+- !private "StringLiteralType"
+- "NSObject"
+- "UITableViewCell"
+- !private "UIColor"
+- !private ">"
+- !private "&&"
+depends-member:
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "dequeueReusableCellWithIdentifier"]
+- !private ["Ps9AnyObject", "hex"]
+- ["Ps9AnyObject", "indexPathForPreferredFocusedViewInTableView"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kg"]
+- !private ["Ps9AnyObject", "lightGrayColor"]
+- ["Ps9AnyObject", "multiFlg"]
+- !private ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "numberOfSectionsInTableView"]
+- !private ["Ps9AnyObject", "reps"]
+- !private ["Ps9AnyObject", "row"]
+- ["Ps9AnyObject", "scrollViewDidEndDecelerating"]
+- ["Ps9AnyObject", "scrollViewDidEndDragging"]
+- ["Ps9AnyObject", "scrollViewDidEndScrollingAnimation"]
+- ["Ps9AnyObject", "scrollViewDidEndZooming"]
+- ["Ps9AnyObject", "scrollViewDidScroll"]
+- ["Ps9AnyObject", "scrollViewDidScrollToTop"]
+- ["Ps9AnyObject", "scrollViewDidZoom"]
+- ["Ps9AnyObject", "scrollViewShouldScrollToTop"]
+- ["Ps9AnyObject", "scrollViewWillBeginDecelerating"]
+- ["Ps9AnyObject", "scrollViewWillBeginDragging"]
+- ["Ps9AnyObject", "scrollViewWillBeginZooming"]
+- ["Ps9AnyObject", "scrollViewWillEndDragging"]
+- ["Ps9AnyObject", "sectionIndexTitlesForTableView"]
+- ["Ps9AnyObject", "tableView"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "textColor"]
+- ["Ps9AnyObject", "viewForZoomingInScrollView"]
+- ["Ps9AnyObject", "workoutModels"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps22BidirectionalIndexType", "description"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "description"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "dequeueReusableCellWithIdentifier"]
+- !private ["Ps11CVarArgType", "description"]
+- !private ["Ps11CVarArgType", "hex"]
+- ["Ps11CVarArgType", "indexPathForPreferredFocusedViewInTableView"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "kg"]
+- !private ["Ps11CVarArgType", "lightGrayColor"]
+- ["Ps11CVarArgType", "multiFlg"]
+- !private ["Ps11CVarArgType", "name"]
+- ["Ps11CVarArgType", "numberOfSectionsInTableView"]
+- !private ["Ps11CVarArgType", "reps"]
+- !private ["Ps11CVarArgType", "row"]
+- ["Ps11CVarArgType", "scrollViewDidEndDecelerating"]
+- ["Ps11CVarArgType", "scrollViewDidEndDragging"]
+- ["Ps11CVarArgType", "scrollViewDidEndScrollingAnimation"]
+- ["Ps11CVarArgType", "scrollViewDidEndZooming"]
+- ["Ps11CVarArgType", "scrollViewDidScroll"]
+- ["Ps11CVarArgType", "scrollViewDidScrollToTop"]
+- ["Ps11CVarArgType", "scrollViewDidZoom"]
+- ["Ps11CVarArgType", "scrollViewShouldScrollToTop"]
+- ["Ps11CVarArgType", "scrollViewWillBeginDecelerating"]
+- ["Ps11CVarArgType", "scrollViewWillBeginDragging"]
+- ["Ps11CVarArgType", "scrollViewWillBeginZooming"]
+- ["Ps11CVarArgType", "scrollViewWillEndDragging"]
+- ["Ps11CVarArgType", "sectionIndexTitlesForTableView"]
+- ["Ps11CVarArgType", "tableView"]
+- !private ["Ps11CVarArgType", "text"]
+- !private ["Ps11CVarArgType", "textColor"]
+- ["Ps11CVarArgType", "viewForZoomingInScrollView"]
+- ["Ps11CVarArgType", "workoutModels"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "count"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "description"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCellWithIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "hex"]
+- ["Ps28CustomDebugStringConvertible", "indexPathForPreferredFocusedViewInTableView"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kg"]
+- !private ["Ps28CustomDebugStringConvertible", "lightGrayColor"]
+- ["Ps28CustomDebugStringConvertible", "multiFlg"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "numberOfSectionsInTableView"]
+- !private ["Ps28CustomDebugStringConvertible", "reps"]
+- !private ["Ps28CustomDebugStringConvertible", "row"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidEndDecelerating"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidEndDragging"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidEndScrollingAnimation"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidEndZooming"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidScroll"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidScrollToTop"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewDidZoom"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewShouldScrollToTop"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewWillBeginDecelerating"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewWillBeginDragging"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewWillBeginZooming"]
+- ["Ps28CustomDebugStringConvertible", "scrollViewWillEndDragging"]
+- ["Ps28CustomDebugStringConvertible", "sectionIndexTitlesForTableView"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "tableView"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "textColor"]
+- ["Ps28CustomDebugStringConvertible", "viewForZoomingInScrollView"]
+- ["Ps28CustomDebugStringConvertible", "workoutModels"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "dequeueReusableCellWithIdentifier"]
+- !private ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "hex"]
+- ["Ps23CustomStringConvertible", "indexPathForPreferredFocusedViewInTableView"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kg"]
+- !private ["Ps23CustomStringConvertible", "lightGrayColor"]
+- ["Ps23CustomStringConvertible", "multiFlg"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "numberOfSectionsInTableView"]
+- !private ["Ps23CustomStringConvertible", "reps"]
+- !private ["Ps23CustomStringConvertible", "row"]
+- ["Ps23CustomStringConvertible", "scrollViewDidEndDecelerating"]
+- ["Ps23CustomStringConvertible", "scrollViewDidEndDragging"]
+- ["Ps23CustomStringConvertible", "scrollViewDidEndScrollingAnimation"]
+- ["Ps23CustomStringConvertible", "scrollViewDidEndZooming"]
+- ["Ps23CustomStringConvertible", "scrollViewDidScroll"]
+- ["Ps23CustomStringConvertible", "scrollViewDidScrollToTop"]
+- ["Ps23CustomStringConvertible", "scrollViewDidZoom"]
+- ["Ps23CustomStringConvertible", "scrollViewShouldScrollToTop"]
+- ["Ps23CustomStringConvertible", "scrollViewWillBeginDecelerating"]
+- ["Ps23CustomStringConvertible", "scrollViewWillBeginDragging"]
+- ["Ps23CustomStringConvertible", "scrollViewWillBeginZooming"]
+- ["Ps23CustomStringConvertible", "scrollViewWillEndDragging"]
+- ["Ps23CustomStringConvertible", "sectionIndexTitlesForTableView"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "tableView"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "textColor"]
+- ["Ps23CustomStringConvertible", "viewForZoomingInScrollView"]
+- ["Ps23CustomStringConvertible", "workoutModels"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "dequeueReusableCellWithIdentifier"]
+- !private ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "hex"]
+- ["Ps9Equatable", "indexPathForPreferredFocusedViewInTableView"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kg"]
+- !private ["Ps9Equatable", "lightGrayColor"]
+- ["Ps9Equatable", "multiFlg"]
+- !private ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "numberOfSectionsInTableView"]
+- !private ["Ps9Equatable", "reps"]
+- !private ["Ps9Equatable", "row"]
+- ["Ps9Equatable", "scrollViewDidEndDecelerating"]
+- ["Ps9Equatable", "scrollViewDidEndDragging"]
+- ["Ps9Equatable", "scrollViewDidEndScrollingAnimation"]
+- ["Ps9Equatable", "scrollViewDidEndZooming"]
+- ["Ps9Equatable", "scrollViewDidScroll"]
+- ["Ps9Equatable", "scrollViewDidScrollToTop"]
+- ["Ps9Equatable", "scrollViewDidZoom"]
+- ["Ps9Equatable", "scrollViewShouldScrollToTop"]
+- ["Ps9Equatable", "scrollViewWillBeginDecelerating"]
+- ["Ps9Equatable", "scrollViewWillBeginDragging"]
+- ["Ps9Equatable", "scrollViewWillBeginZooming"]
+- ["Ps9Equatable", "scrollViewWillEndDragging"]
+- ["Ps9Equatable", "sectionIndexTitlesForTableView"]
+- ["Ps9Equatable", "tableView"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "textColor"]
+- ["Ps9Equatable", "viewForZoomingInScrollView"]
+- ["Ps9Equatable", "workoutModels"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "description"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "dequeueReusableCellWithIdentifier"]
+- !private ["Ps8Hashable", "description"]
+- !private ["Ps8Hashable", "hex"]
+- ["Ps8Hashable", "indexPathForPreferredFocusedViewInTableView"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kg"]
+- !private ["Ps8Hashable", "lightGrayColor"]
+- ["Ps8Hashable", "multiFlg"]
+- !private ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "numberOfSectionsInTableView"]
+- !private ["Ps8Hashable", "reps"]
+- !private ["Ps8Hashable", "row"]
+- ["Ps8Hashable", "scrollViewDidEndDecelerating"]
+- ["Ps8Hashable", "scrollViewDidEndDragging"]
+- ["Ps8Hashable", "scrollViewDidEndScrollingAnimation"]
+- ["Ps8Hashable", "scrollViewDidEndZooming"]
+- ["Ps8Hashable", "scrollViewDidScroll"]
+- ["Ps8Hashable", "scrollViewDidScrollToTop"]
+- ["Ps8Hashable", "scrollViewDidZoom"]
+- ["Ps8Hashable", "scrollViewShouldScrollToTop"]
+- ["Ps8Hashable", "scrollViewWillBeginDecelerating"]
+- ["Ps8Hashable", "scrollViewWillBeginDragging"]
+- ["Ps8Hashable", "scrollViewWillBeginZooming"]
+- ["Ps8Hashable", "scrollViewWillEndDragging"]
+- ["Ps8Hashable", "sectionIndexTitlesForTableView"]
+- ["Ps8Hashable", "tableView"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "textColor"]
+- ["Ps8Hashable", "viewForZoomingInScrollView"]
+- ["Ps8Hashable", "workoutModels"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "description"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "description"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "description"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "description"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "description"]
+- ["C11barbellyApp23MultiSetTableDataSource", "Int"]
+- ["C11barbellyApp23MultiSetTableDataSource", "NSIndexPath"]
+- !private ["C11barbellyApp23MultiSetTableDataSource", "UIColor"]
+- ["C11barbellyApp23MultiSetTableDataSource", "UITableView"]
+- ["C11barbellyApp23MultiSetTableDataSource", "UITableViewCell"]
+- !private ["C11barbellyApp23MultiSetTableDataSource", "WorkoutLogCell"]
+- ["C11barbellyApp23MultiSetTableDataSource", "WorkoutModel"]
+- ["C11barbellyApp23MultiSetTableDataSource", "deinit"]
+- ["C11barbellyApp23MultiSetTableDataSource", "indexPathForPreferredFocusedViewInTableView"]
+- ["C11barbellyApp23MultiSetTableDataSource", "init"]
+- ["C11barbellyApp23MultiSetTableDataSource", "multiFlg"]
+- ["C11barbellyApp23MultiSetTableDataSource", "numberOfSectionsInTableView"]
+- ["C11barbellyApp23MultiSetTableDataSource", "scrollViewDidEndDecelerating"]
+- ["C11barbellyApp23MultiSetTableDataSource", "scrollViewDidEndDragging"]
+- ["C11barbellyApp23MultiSetTableDataSource", "scrollViewDidEndScrollingAnimation"]
+- ["C11barbellyApp23MultiSetTableDataSource", "scrollViewDidEndZooming"]
+- ["C11barbellyApp23MultiSetTableDataSource", "scrollViewDidScroll"]
+- ["C11barbellyApp23MultiSetTableDataSource", "scrollViewDidScrollToTop"]
+- ["C11barbellyApp23MultiSetTableDataSource", "scrollViewDidZoom"]
+- ["C11barbellyApp23MultiSetTableDataSource", "scrollViewShouldScrollToTop"]
+- ["C11barbellyApp23MultiSetTableDataSource", "scrollViewWillBeginDecelerating"]
+- ["C11barbellyApp23MultiSetTableDataSource", "scrollViewWillBeginDragging"]
+- ["C11barbellyApp23MultiSetTableDataSource", "scrollViewWillBeginZooming"]
+- ["C11barbellyApp23MultiSetTableDataSource", "scrollViewWillEndDragging"]
+- ["C11barbellyApp23MultiSetTableDataSource", "sectionIndexTitlesForTableView"]
+- ["C11barbellyApp23MultiSetTableDataSource", "tableView"]
+- ["C11barbellyApp23MultiSetTableDataSource", "viewForZoomingInScrollView"]
+- ["C11barbellyApp23MultiSetTableDataSource", "workoutModels"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "count"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "count"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- !private ["PSo8NSCoding", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo8NSCoding", "hex"]
+- !private ["PSo8NSCoding", "kg"]
+- !private ["PSo8NSCoding", "lightGrayColor"]
+- !private ["PSo8NSCoding", "name"]
+- !private ["PSo8NSCoding", "reps"]
+- !private ["PSo8NSCoding", "row"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "textColor"]
+- !private ["PSo9NSCopying", "hex"]
+- !private ["PSo9NSCopying", "lightGrayColor"]
+- !private ["PSo9NSCopying", "row"]
+- !private ["CSo11NSIndexPath", "row"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSIndexPath"]
+- !private ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "UITableViewCell"]
+- !private ["CSo8NSObject", "WorkoutLogCell"]
+- ["CSo8NSObject", "WorkoutModel"]
+- !private ["CSo8NSObject", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo8NSObject", "hex"]
+- ["CSo8NSObject", "indexPathForPreferredFocusedViewInTableView"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kg"]
+- !private ["CSo8NSObject", "lightGrayColor"]
+- ["CSo8NSObject", "multiFlg"]
+- !private ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "numberOfSectionsInTableView"]
+- !private ["CSo8NSObject", "reps"]
+- !private ["CSo8NSObject", "row"]
+- ["CSo8NSObject", "scrollViewDidEndDecelerating"]
+- ["CSo8NSObject", "scrollViewDidEndDragging"]
+- ["CSo8NSObject", "scrollViewDidEndScrollingAnimation"]
+- ["CSo8NSObject", "scrollViewDidEndZooming"]
+- ["CSo8NSObject", "scrollViewDidScroll"]
+- ["CSo8NSObject", "scrollViewDidScrollToTop"]
+- ["CSo8NSObject", "scrollViewDidZoom"]
+- ["CSo8NSObject", "scrollViewShouldScrollToTop"]
+- ["CSo8NSObject", "scrollViewWillBeginDecelerating"]
+- ["CSo8NSObject", "scrollViewWillBeginDragging"]
+- ["CSo8NSObject", "scrollViewWillBeginZooming"]
+- ["CSo8NSObject", "scrollViewWillEndDragging"]
+- ["CSo8NSObject", "sectionIndexTitlesForTableView"]
+- ["CSo8NSObject", "tableView"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "textColor"]
+- ["CSo8NSObject", "viewForZoomingInScrollView"]
+- ["CSo8NSObject", "workoutModels"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "hex"]
+- ["PSo16NSObjectProtocol", "indexPathForPreferredFocusedViewInTableView"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kg"]
+- !private ["PSo16NSObjectProtocol", "lightGrayColor"]
+- ["PSo16NSObjectProtocol", "multiFlg"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
+- !private ["PSo16NSObjectProtocol", "reps"]
+- !private ["PSo16NSObjectProtocol", "row"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndDecelerating"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndDragging"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndScrollingAnimation"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndZooming"]
+- ["PSo16NSObjectProtocol", "scrollViewDidScroll"]
+- ["PSo16NSObjectProtocol", "scrollViewDidScrollToTop"]
+- ["PSo16NSObjectProtocol", "scrollViewDidZoom"]
+- ["PSo16NSObjectProtocol", "scrollViewShouldScrollToTop"]
+- ["PSo16NSObjectProtocol", "scrollViewWillBeginDecelerating"]
+- ["PSo16NSObjectProtocol", "scrollViewWillBeginDragging"]
+- ["PSo16NSObjectProtocol", "scrollViewWillBeginZooming"]
+- ["PSo16NSObjectProtocol", "scrollViewWillEndDragging"]
+- ["PSo16NSObjectProtocol", "sectionIndexTitlesForTableView"]
+- ["PSo16NSObjectProtocol", "tableView"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "textColor"]
+- ["PSo16NSObjectProtocol", "viewForZoomingInScrollView"]
+- ["PSo16NSObjectProtocol", "workoutModels"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "hex"]
+- !private ["PSo14NSSecureCoding", "lightGrayColor"]
+- !private ["PSo14NSSecureCoding", "row"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps21RandomAccessIndexType", "description"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "count"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps17SignedIntegerType", "description"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "description"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "description"]
+- !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo29UIAccessibilityIdentification", "kg"]
+- !private ["PSo29UIAccessibilityIdentification", "name"]
+- !private ["PSo29UIAccessibilityIdentification", "reps"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "textColor"]
+- !private ["PSo12UIAppearance", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo12UIAppearance", "kg"]
+- !private ["PSo12UIAppearance", "name"]
+- !private ["PSo12UIAppearance", "reps"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo12UIAppearance", "textColor"]
+- !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "kg"]
+- !private ["PSo21UIAppearanceContainer", "name"]
+- !private ["PSo21UIAppearanceContainer", "reps"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "textColor"]
+- !private ["CSo7UIColor", "hex"]
+- !private ["CSo7UIColor", "lightGrayColor"]
+- !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo17UICoordinateSpace", "kg"]
+- !private ["PSo17UICoordinateSpace", "name"]
+- !private ["PSo17UICoordinateSpace", "reps"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo17UICoordinateSpace", "textColor"]
+- !private ["PSo13UIDynamicItem", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo13UIDynamicItem", "kg"]
+- !private ["PSo13UIDynamicItem", "name"]
+- !private ["PSo13UIDynamicItem", "reps"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo13UIDynamicItem", "textColor"]
+- !private ["PSo18UIFocusEnvironment", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "kg"]
+- !private ["PSo18UIFocusEnvironment", "name"]
+- !private ["PSo18UIFocusEnvironment", "reps"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "textColor"]
+- !private ["PSo27UIGestureRecognizerDelegate", "kg"]
+- !private ["PSo27UIGestureRecognizerDelegate", "name"]
+- !private ["PSo27UIGestureRecognizerDelegate", "reps"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo7UILabel", "textColor"]
+- !private ["CSo11UIResponder", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo11UIResponder", "kg"]
+- !private ["CSo11UIResponder", "name"]
+- !private ["CSo11UIResponder", "reps"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "textColor"]
+- !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo20UIScrollViewDelegate", "UIColor"]
+- ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["PSo20UIScrollViewDelegate", "multiFlg"]
+- ["PSo20UIScrollViewDelegate", "numberOfSectionsInTableView"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndDecelerating"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndDragging"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndScrollingAnimation"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndZooming"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidScroll"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidScrollToTop"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidZoom"]
+- ["PSo20UIScrollViewDelegate", "scrollViewShouldScrollToTop"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillBeginDecelerating"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillBeginDragging"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillBeginZooming"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillEndDragging"]
+- ["PSo20UIScrollViewDelegate", "sectionIndexTitlesForTableView"]
+- ["PSo20UIScrollViewDelegate", "tableView"]
+- ["PSo20UIScrollViewDelegate", "viewForZoomingInScrollView"]
+- !private ["PSo20UIScrollViewDelegate", "workoutModels"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["CSo11UITableView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo15UITableViewCell", "kg"]
+- !private ["CSo15UITableViewCell", "name"]
+- !private ["CSo15UITableViewCell", "reps"]
+- !private ["PSo21UITableViewDataSource", "UIColor"]
+- ["PSo21UITableViewDataSource", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["PSo21UITableViewDataSource", "multiFlg"]
+- ["PSo21UITableViewDataSource", "numberOfSectionsInTableView"]
+- ["PSo21UITableViewDataSource", "scrollViewDidEndDecelerating"]
+- ["PSo21UITableViewDataSource", "scrollViewDidEndDragging"]
+- ["PSo21UITableViewDataSource", "scrollViewDidEndScrollingAnimation"]
+- ["PSo21UITableViewDataSource", "scrollViewDidEndZooming"]
+- ["PSo21UITableViewDataSource", "scrollViewDidScroll"]
+- ["PSo21UITableViewDataSource", "scrollViewDidScrollToTop"]
+- ["PSo21UITableViewDataSource", "scrollViewDidZoom"]
+- ["PSo21UITableViewDataSource", "scrollViewShouldScrollToTop"]
+- ["PSo21UITableViewDataSource", "scrollViewWillBeginDecelerating"]
+- ["PSo21UITableViewDataSource", "scrollViewWillBeginDragging"]
+- ["PSo21UITableViewDataSource", "scrollViewWillBeginZooming"]
+- ["PSo21UITableViewDataSource", "scrollViewWillEndDragging"]
+- ["PSo21UITableViewDataSource", "sectionIndexTitlesForTableView"]
+- ["PSo21UITableViewDataSource", "tableView"]
+- ["PSo21UITableViewDataSource", "viewForZoomingInScrollView"]
+- !private ["PSo21UITableViewDataSource", "workoutModels"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["PSo19UITableViewDelegate", "UIColor"]
+- ["PSo19UITableViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["PSo19UITableViewDelegate", "multiFlg"]
+- ["PSo19UITableViewDelegate", "numberOfSectionsInTableView"]
+- ["PSo19UITableViewDelegate", "scrollViewDidEndDecelerating"]
+- ["PSo19UITableViewDelegate", "scrollViewDidEndDragging"]
+- ["PSo19UITableViewDelegate", "scrollViewDidEndScrollingAnimation"]
+- ["PSo19UITableViewDelegate", "scrollViewDidEndZooming"]
+- ["PSo19UITableViewDelegate", "scrollViewDidScroll"]
+- ["PSo19UITableViewDelegate", "scrollViewDidScrollToTop"]
+- ["PSo19UITableViewDelegate", "scrollViewDidZoom"]
+- ["PSo19UITableViewDelegate", "scrollViewShouldScrollToTop"]
+- ["PSo19UITableViewDelegate", "scrollViewWillBeginDecelerating"]
+- ["PSo19UITableViewDelegate", "scrollViewWillBeginDragging"]
+- ["PSo19UITableViewDelegate", "scrollViewWillBeginZooming"]
+- ["PSo19UITableViewDelegate", "scrollViewWillEndDragging"]
+- ["PSo19UITableViewDelegate", "sectionIndexTitlesForTableView"]
+- ["PSo19UITableViewDelegate", "tableView"]
+- ["PSo19UITableViewDelegate", "viewForZoomingInScrollView"]
+- !private ["PSo19UITableViewDelegate", "workoutModels"]
+- ["PSo19UITableViewDelegate", ""]
+- !private ["PSo18UITraitEnvironment", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "kg"]
+- !private ["PSo18UITraitEnvironment", "name"]
+- !private ["PSo18UITraitEnvironment", "reps"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "textColor"]
+- !private ["CSo6UIView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo6UIView", "kg"]
+- !private ["CSo6UIView", "name"]
+- !private ["CSo6UIView", "reps"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo6UIView", "textColor"]
+- !private ["C11barbellyApp14WorkoutLogCell", "kg"]
+- !private ["C11barbellyApp14WorkoutLogCell", "name"]
+- !private ["C11barbellyApp14WorkoutLogCell", "reps"]
+- ["C11barbellyApp12WorkoutModel", "deinit"]
+- !private ["C11barbellyApp12WorkoutModel", "kg"]
+- !private ["C11barbellyApp12WorkoutModel", "name"]
+- !private ["C11barbellyApp12WorkoutModel", "reps"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "count"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "description"]
+- !private ["Ps24_ColorLiteralConvertible", "hex"]
+- !private ["Ps24_ColorLiteralConvertible", "lightGrayColor"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "description"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "description"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "description"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "description"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "description"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "count"]
+- !private ["Ps12_Reflectable", "dequeueReusableCellWithIdentifier"]
+- !private ["Ps12_Reflectable", "description"]
+- !private ["Ps12_Reflectable", "kg"]
+- !private ["Ps12_Reflectable", "name"]
+- !private ["Ps12_Reflectable", "reps"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps12_Reflectable", "text"]
+- !private ["Ps12_Reflectable", "textColor"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps18_SignedIntegerType", "description"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- "C11barbellyApp23MultiSetTableDataSource"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo11NSIndexPath"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UILabel"
+- !private "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- !private "CSo11UITableView"
+- !private "CSo15UITableViewCell"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "C11barbellyApp14WorkoutLogCell"
+- "C11barbellyApp12WorkoutModel"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/barbellyApp/barbellyApp-Bridging-Header.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/SubClassHandler.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBUser+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRelation+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBQuery+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBObject+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBFacebookUtils+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBSetOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRemoveOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRelationOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBIncrementOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBDeleteOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBAddUniqueOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBAddOperation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NSDataBase64Encode.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBURLConnection.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBTwitterLoginView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAServiceTicket.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAHMAC_SHA1SignatureProvider.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOASignatureProviding.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAToken.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAMutableURLRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOADataFetcher.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOAConsumer.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/sha1.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/hmac.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/Base64Transcoder.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NSURLBase.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NSStringURLEncoding.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBOARequestParameter.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NSMutableURLRequestParameters.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRichPushView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBCloseImageView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBObject+Subclass.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBGoogleUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBGoogleUtils+Private.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBReachability.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBSubclassing.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBFacebookUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBScriptService.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBScript.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBTwitterUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBFile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBUser.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBError.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBACL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRole.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRelation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBGeoPoint.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBQuery.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBAnonymousUtils.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBPush.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBObject.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBInstallation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBAnalytics.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMB.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMBRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Headers/NCMB-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/NCMB.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FontAwesomeKit.framework/Headers/FAKFontAwesome.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FontAwesomeKit.framework/Headers/FAKIcon.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FontAwesomeKit.framework/Headers/FontAwesomeKit-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FontAwesomeKit.framework/Modules/module.modulemap"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTask.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFURL.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/Bolts.framework/Modules/module.modulemap"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/fujikawa-kei/Desktop/xcode/barbellyApp/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "025c5e172c8947915b51907c1b1b2ad4"
