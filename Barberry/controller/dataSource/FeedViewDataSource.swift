@@ -52,7 +52,7 @@ class FeedViewDataSource: NSObject, UITableViewDataSource, UITableViewDelegate  
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath:NSIndexPath) {
         if !delegate!.myActivityIndicator.isAnimating(){//animation処理中じゃなければ。
             //プロフィールに遷移させる
-            delegate!.selectedUserId = feedModels[indexPath.row].userId
+            delegate!.selectedUserId = mMapIndexer[indexPath.row][0].userId
             delegate!.performSegueWithIdentifier("goToOtherProfile", sender: self)
             
         }
