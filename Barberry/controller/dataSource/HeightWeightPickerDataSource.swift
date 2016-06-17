@@ -52,8 +52,8 @@ class HeightWeightPickerDataSource: NSObject, UIPickerViewDelegate, UIPickerView
     //選択時
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
         
-        var height = "170"
-        var weight = "70"
+        var height = delegate!.userModel?.height.description
+        var weight = delegate!.userModel?.weight.description
         
         if component == 0 {
             //身長
